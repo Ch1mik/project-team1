@@ -27,12 +27,19 @@
     margin-left: auto;
     margin-right: auto;
 }
+@media only screen and (min-width: 1200px){
+    .sellers-text{
+        position: absolute;
+        max-width: 407px;
+    }
+}
 
 .sellers-link {
     margin-bottom: 32px;
 }
 .sellers-block{
     display: block;
+    justify-content: center;
 }
 @media only screen and (min-width: 768px) {
     .sellers-block {
@@ -72,12 +79,12 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .sellers-link-button {
             position: absolute;
-            transform: translateX(557px) translateY(496px);
+            transform: translateX(280px) translateY(496px);
         }
 }
 @media only screen and (min-width: 1200px) {
     .sellers-link-button {
             position: absolute;
-            transform: translateX(924px) translateY(496px);
+            transform: translateX(464px) translateY(496px);
         }
 }
