@@ -20,8 +20,6 @@ body {
     max-width: 375px;
     margin: 0 auto;
   }
-  
-  
   .hidden{
     position: absolute;
     width: 1px;
