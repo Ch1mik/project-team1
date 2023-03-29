@@ -28,7 +28,7 @@
     </header>
     <main>
       <load ="partials/hero.html" />
-      <!-- <load ="partials/benefits.html" />  -->
+      <load ="partials/benefits.html" /> 
       <load ="partials/advantages.html" />
       <load ="partials/unique-components.html" />
       <load ="partials/how-made.html" />
@@ -40,6 +40,16 @@
     <footer>
       <load ="partials/footer.html" />
     </footer>
-    <script src="./js/our-products.js"></script>
+
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 18,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
