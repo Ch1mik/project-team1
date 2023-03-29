@@ -1,0 +1,101 @@
+.section-hero {
+    padding: 0 20px 72px;
+}
+@media only screen and (min-width:768px) {
+    .section-hero {
+        padding: 0 32px 50px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .section-hero {
+        padding-top: 0;
+        padding-bottom: 72px;
+    }
+}
+.hero-container {
+    margin: 0px auto;
+    padding: 395px 20px 20px;
+    border-radius: 30px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:linear-gradient(180deg, rgba(17, 17, 17, 0) 0%,
+    rgba(17, 17, 17, 0.4) 100%),
+    url(../img/hero/mob-hero@1x.jpg);
+  }
+@media (min-device-pixel-ratio: 2) and (max-width: 767px),
+(min-resolution: 192dpi) and (max-width: 767px),
+(min-resolution: 2dppx) and (max-width: 767px) {
+.hero-container {
+  background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%,
+  rgba(17, 17, 17, 0.4) 100%),
+  url(../img/hero/mob-hero@2x.jpg);
+}
+}
+@media screen and (min-width: 768px) {
+    .hero-container {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%),
+        url(../img/hero/tab-hero@1x.jpg);    
+    }
+  }
+  @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero-container {
+    background-image:linear-gradient(180deg, rgba(17, 17, 17, 0) 0%,
+    rgba(17, 17, 17, 0.4) 100%),
+  url(../img/hero/tab-hero@2x.jpg);
+  }
+} 
+@media screen and (min-width: 1200px) {
+    .hero-container {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%),
+        url(../img/hero/desk-hero@1x.jpg); 
+    }
+}
+@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+(min-resolution: 192dpi) and (min-width: 1200px),
+(min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero-container {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%),
+        url(../img/hero/desk-hero@2x.jpg) ; 
+    }
+}
+@media only screen and (min-width:768px) {
+    .hero-container {
+        padding: 671px 40px 40px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .hero-container {
+        padding-top: 381px;
+    }
+}
+.hero-subtitle {
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-bottom: 32px; 
+    text-align: left;
+}
+@media only screen and (min-width:768px) {
+    .hero-subtitle {
+        font-size: 28px;
+        line-height: calc(34/28);
+    }
+}
+.hero-btn {
+    padding: 12px 28px;
+}
+.made-btn {
+    padding: 12px 28px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+}
