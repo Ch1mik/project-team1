@@ -5,7 +5,7 @@
   padding-right: 20px;
   max-width: 375px;
 
-  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -18,7 +18,7 @@
 
 @media only screen and (min-width: 1158px) {
   .taste-container {
-    max-width: 1158px;
+    max-width: 1200px;
   }
 }
 
@@ -42,7 +42,7 @@
   text-align: center;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: #111111;
+  color: var(--main-color);
 
   margin: 0 auto;
   margin-bottom: 24px;
@@ -61,7 +61,7 @@
 }
 
 .taste-span {
-  color: #fd9222;
+  color: var(--orange-color);
 }
 
 .taste-text {
@@ -94,7 +94,7 @@
     display: grid;
     max-width: 1200px;
     grid-template-columns: repeat(4, 1fr);
-    gap: 32px 32px;
+    gap: 19px;
   }
 }
 
@@ -114,29 +114,31 @@
   }
 }
 
-/* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .taste-box {
+    max-width: 270px;
+    height: 270px;
   }
-} */
+}
 
 .taste-front.first {
-  background-color: #fd9222;
+  background-color: var(--orange-color);
   color: #ffffff;
 }
 
 .taste-front.second {
-  background-color: #fff;
-  border: 1px solid #fd9222;
+  background-color: #ffffff;
+  border: 1px solid var(--orange-color);
 }
 
 .taste-front.third {
-  background-color: #1e1823;
+  background-color: var(--secondary-color);
   color: #ffffff;
 }
 
 .taste-front.fourth {
   background-color: #fff;
-  border: 1px solid #fd9222;
+  border: 1px solid var(--orange-color);
 }
 
 .taste-front,
@@ -167,6 +169,14 @@
   }
 }
 
+.taste-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .taste-back {
   background-color: #ffffff;
   transform: rotateY(180deg);
@@ -178,16 +188,12 @@
   transform: rotateY(0deg);
 }
 
-/* .taste-item {
-} */
-
 .taste-img {
   margin: 0 auto;
   margin-bottom: 25px;
 }
 
 .taste-subtitle {
-  margin-top: 25px;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.29;
@@ -200,7 +206,6 @@
 .taste-back-contents {
   width: 100%;
   height: 214px;
-  /* overflow-x: scroll; */
   color: #fff;
   transform: translateZ(100px) scale(0.85);
 }
@@ -211,7 +216,7 @@
   line-height: 1.22;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: #111111;
+  color: var(--main-color);
 }
 
 .taste-back-list {
@@ -228,17 +233,17 @@
 
   font-size: 10px;
   line-height: 1.2;
-  color: #111111;
+  color: var(--main-color);
 
   background: transparent;
   border-radius: 35px;
-  border: 1px solid #fd9222;
+  border: 1px solid var(--orange-color);
   cursor: pointer;
 }
 
 .active {
   color: #ffffff;
-  background: #fd9222;
+  background: var(--orange-color);
   border: transparent;
 }
 
@@ -252,7 +257,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 
-  color: #111111;
+  color: var(--main-color);
 }
 
 @media only screen and (min-width: 1200px) {
