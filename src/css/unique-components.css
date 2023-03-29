@@ -114,10 +114,10 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .taste-box {
   }
-}
+} */
 
 .taste-front.first {
   background-color: #fd9222;
@@ -178,8 +178,8 @@
   transform: rotateY(0deg);
 }
 
-.taste-item {
-}
+/* .taste-item {
+} */
 
 .taste-img {
   margin: 0 auto;
