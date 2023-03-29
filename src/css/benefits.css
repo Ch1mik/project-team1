@@ -1,5 +1,5 @@
 .benefits{
-    background-color: var(--orange-color);
+    background-color: blue;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -13,7 +13,7 @@
         padding: 50px;
     }
 }
-/* .container-benefit{
+.container-benefit{
     max-width: 375px;
     margin: 0 auto;
     padding: 0 20px;
@@ -29,7 +29,7 @@
         padding-left: 32px;
         padding-right: 32px;
     }
-} */
+}
 .benefit-list{
     display: flex;
     flex-wrap: wrap;
