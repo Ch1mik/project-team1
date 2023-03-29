@@ -1,0 +1,125 @@
+.review-title {
+  margin-bottom: 74px;
+}
+
+.review-link:not(:last-child) {
+  margin-bottom: 70px;
+}
+
+.review-list {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-bottom: 100px;
+  }
+
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .review-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .review-link {
+    width: 344px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-bottom: 128px;
+  }
+
+  .container {
+    padding: 0 32px;
+    max-width: 1200px;
+  }
+  .review-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+
+  .review-link {
+    width: 360px;
+  }
+}
+
+.review-title span {
+  color: var(--orange-color);
+}
+
+.reviews-author {
+  text-align: center;
+  background-color: var(--white-color);
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+  border-radius: 15px;
+  padding: 54px 18px 42px 18px;
+}
+
+.review-link {
+  position: relative;
+}
+.reviews-photo {
+  position: absolute;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.reviews-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.333;
+  margin-bottom: 24px;
+}
+
+.reviews-text {
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.product-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 28px;
+  margin: 0 auto;
+  width: 165px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  background-color: transparent;
+
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+
+  text-align: center;
+
+  color: var(--main-color);
+}
+
+@media screen and (min-width: 768px) {
+  .product-button {
+    width: 222px;
+    height: 50px;
+    padding: 14px 40px;
+    font-size: 18px;
+    line-height: 1.22px;
+  }
+}
+
+.product-button:hover {
+  background-color: #fd9222;
+  color: var(--white-color);
+}
