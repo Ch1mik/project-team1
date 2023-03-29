@@ -49,15 +49,14 @@
 margin-bottom: 20px;
 }
 .title-how-made {
-font-family: 'Montserrat';
-font-style: normal;
+font-family: var(--primary-font-family);
 font-weight: 600;
 font-size: 20px;
 line-height: calc(24/20);
 text-align: center;
 letter-spacing: -0.03em;
 text-transform: uppercase;
-color: #111111;
+color: var(--main-color);
 margin-top: 0px;
 margin-bottom: 32px;
 }
@@ -69,7 +68,7 @@ margin-bottom: 32px;
     } 
 }
 .made {
-color: #FD9222;
+color: var(--orange-color);
 }
 iframe {
     width: 100%;
@@ -98,32 +97,30 @@ border-radius: 15px;
     } 
 }
 .title-try {
-font-family: 'Montserrat';
-font-style: normal;
+font-family: var(--primary-font-family);
 font-weight: 600;
 font-size: 18px;
 line-height: calc(24/18);
-color: #111111;
+color: var(--main-color);
 margin: 0;
 }
 .title-made {
 display:flex;
 flex-direction: column;
 align-items: flex-start;
-list-style: disc;
 margin-top: 20px;
 margin-bottom: 0px;
 padding-left: 20px;
 gap: 18px;
 }
 .item-made {
-font-family: 'Montserrat';
-font-style: normal;
+position: relative;
+font-family: var(--primary-font-family);
 font-weight: 400;
 font-size: 14px;
 line-height: calc(18/14);
 letter-spacing: -0.02em;
-color: #111111;
+color: var(--main-color);
 }
 .item-made::before {
     position: absolute;
