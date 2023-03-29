@@ -10,7 +10,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     background-color: var(--white-color);
-    color: #f5ecec;
+    color: var(--main-color);
   }
   
   .container {
