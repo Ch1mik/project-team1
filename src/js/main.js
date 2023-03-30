@@ -3,4 +3,4 @@
 // import('./reviewx.js');
 import('./mobile-menu');
 import('./our-productsour');
-import('./reviews')
+import('./reviews');
