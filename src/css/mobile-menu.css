@@ -41,9 +41,11 @@ outline: transparent;
     padding-bottom: 20px;
     background-color: #1E1823;
     z-index: 999;
-    visibility: hidden;
+
     opacity: 0;
+    visibility: hidden;
     transition: opacity 800ms ease-out, visibility 800ms ease-out;
+
 }
 @media screen and (min-width: 768px) {
     .menu-container {
@@ -51,6 +53,7 @@ outline: transparent;
         padding-left: 32px;
             padding-right: 32px;
             padding-bottom: 24px;
+
     }
 }
 .menu-container.is-open {
@@ -58,6 +61,7 @@ outline: transparent;
     opacity: 1;
     visibility: visible;
   
+
 
 }
 .mobile-menu {
