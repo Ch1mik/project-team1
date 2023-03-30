@@ -1,13 +1,28 @@
 .subscribe {
   padding-top: 62px;
   padding-bottom: 63px;
-  background-color: gray;
+  background-color: #ffffff;
   color: #ffffff;
-  align-items: center;
-  margin: 0 auto;
-}
 
-.thumb-title {
+  margin: 0 auto;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('../img/subscribe/mob-sub@1x.jpg');
+}
+.subscrb-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 24px;
+}
+.subscr-title {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -16,23 +31,14 @@
   letter-spacing: -0.03em;
   width: 291px;
   height: 48px;
-  margin-bottom: 24px;
 }
-.thumb {
-  position: relative;
-  width: 375px;
-  overflow: hidden;
-}
-.thumb-text {
-  position: absolute;
+
+.subscr-text {
   line-height: 1.29;
   color: #ffffff;
   text-align: center;
   letter-spacing: -0.02em;
-  margin-bottom: 24px;
-  bottom: 24px;
-  width: 90%;
-  left: 10%;
+  font-size: 14px;
 }
 
 .sbscrb-btn {
@@ -42,5 +48,96 @@
   height: 41px;
   background: #fd9222;
   color: #ffffff;
+  cursor: pointer;
+  margin: 0 auto;
   align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.sbscrb-btn:hover,
+.sbscrb-btn:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('../img/subscribe/mob-sub@2x.jpg');
+  }
+}
+@media only screen and (min-width: 765px) {
+  .subscrb-list {
+    justify-content: center;
+    align-items: center;
+  }
+  .subscr-title {
+    width: 378px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+  }
+  .subscr-text {
+    width: 467px;
+    height: 72px;
+  }
+  .sbscrb-btn {
+    padding: 14px 40px;
+    width: 172px;
+    height: 50px;
+  }
+  .subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('../img/subscribe/tab-sub@1x.jpg');
+    padding-top: 72px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url('../img/subscribe/tab-sub@2x.jpg');
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('../img/subscribe/desk-sub@1x.jpg');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url('../img/subscribe/desk-sub@2x.jpg');
+    }
+  }
+  .subscribe {
+    max-width: 1440px;
+  }
 }
