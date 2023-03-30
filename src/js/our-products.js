@@ -1,4 +1,4 @@
-var swiper = new Swiper('.mySwiper', {
+var swiper = new Swiper('.swiperProduct', {
   slidesPerView: 'auto',
   spaceBetween: 18,
   pagination: {
