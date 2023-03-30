@@ -31,7 +31,6 @@
 
 @media only screen and (min-width: 1200px) {
   .taste-field {
-    max-width: 768px;
     margin-bottom: 50px;
   }
 }
