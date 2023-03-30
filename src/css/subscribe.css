@@ -7,23 +7,7 @@
   margin: 0 auto;
 }
 
-.subscribe {
-  display: flex;
-  flex-direction: column;
-  max-width: 428px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('');
-}
-
-.sbcrb-title {
+.thumb-title {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -34,12 +18,21 @@
   height: 48px;
   margin-bottom: 24px;
 }
-.sbcrb-text {
+.thumb {
+  position: relative;
+  width: 375px;
+  overflow: hidden;
+}
+.thumb-text {
+  position: absolute;
   line-height: 1.29;
-
+  color: #ffffff;
   text-align: center;
   letter-spacing: -0.02em;
   margin-bottom: 24px;
+  bottom: 24px;
+  width: 90%;
+  left: 10%;
 }
 
 .sbscrb-btn {

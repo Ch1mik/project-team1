@@ -47,8 +47,9 @@
   display: flex;
   flex-direction: row;
 }
-.social-icon {
-  fill: #fafafa;
+.social-icon-ftr {
+  fill: none;
+  stroke: #1e1823;
 }
 .ftr-pages-list {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
