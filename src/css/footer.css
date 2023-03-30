@@ -9,7 +9,12 @@
 .accent {
   color: #fd9222;
 }
-
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
 .footer-title {
   margin-bottom: 32px;
   font-family: 'Montserrat';
@@ -27,12 +32,8 @@
 }
 
 .ftr-contact-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: baseline;
-  width: 164px;
-  height: 72px;
+  margin-bottom: 32px;
+  text-align: start;
 }
 .footer-item {
   text-align: start;
@@ -51,7 +52,7 @@
 .ftr-social-list {
   display: flex;
   flex-direction: row;
-  row-gap: 16px;
+  gap: 16px;
 }
 .ftr-social-title {
   display: flex;
@@ -77,9 +78,7 @@
   margin-bottom: 18px;
   text-align: start;
 }
-.ftr-social-item {
-  margin-left: auto;
-}
+
 @media only screen and (min-width: 765px) {
   .section-footer {
     max-width: 768px;
@@ -93,6 +92,7 @@
   }
   .footer-container {
     margin-bottom: 86px;
+    gap: 86px;
   }
   .footer-title {
     width: 300px;
@@ -116,6 +116,12 @@
   }
   .container {
     max-width: 1200px;
+  }
+  .footer-container {
+    gap: 63px;
+  }
+  .ftr-contact {
+    margin-left: 469px;
   }
 }
 .icon-close_cros {
