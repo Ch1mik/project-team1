@@ -3,23 +3,18 @@
     background: #1E1823;
     max-width: 375px;
     margin: 0 auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right: 47px;
+    padding: 20px 20px 36px 20px;
 }
 @media screen  and (min-width: 768px){
     .container-advantages{
         max-width: 768px;
         padding: 50px 60px 50px 20px;
-        /* margin-bottom: 100px; */
     }
 }
 @media screen and (min-width: 1200px) {
     .container-advantages{
         max-width: 1200px;
         padding: 50px;
-        /* margin-top: 72px;
-        margin-bottom: 120px; */
     }
 }
 .advantage-list{
@@ -27,20 +22,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 0;
-}
-.advantage-list:last-child{
-    padding-bottom: 36px;
-}
-@media screen  and (min-width: 768px){
-    .advantage-list:last-child{
-        padding-bottom: 35px;
-    }
-}
-@media screen  and (min-width: 1200px){
-    .advantage-list:last-child{
-        padding-bottom: 0;
-    }
 }
 @media screen  and (min-width: 768px){
     .advantage-list{
@@ -51,7 +32,7 @@
 @media screen and (min-width: 1200px){
     .advantage-list{
         flex-wrap: nowrap;
-        /* gap: 70px; */
+        gap: 70px;
     }
 }
 .advantage-item{
@@ -64,12 +45,19 @@
 }
 @media screen  and (min-width: 1200px){
     .advantage-item{
+        position: relative;
         min-width: 326px;
-        /* border-right: 1px solid rgba(255, 255, 255, 0.5); */
     }
-    /* .advantage-item:last-child{
-        border-right: none;
-    } */
+    
+    .advantage-line{
+        position: absolute;
+        left: 262px;
+        top: 132px;
+        width: 124px;
+        height: 0px;
+        transform: rotate(90deg);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
 }
 
 .advantage-icon{
@@ -80,7 +68,6 @@
     height: 62px;
     justify-content: center;
     align-items: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 .advantage-title{
     font-style: normal;
@@ -91,19 +78,8 @@
 }
 .advantage-text{
     max-width: 308px;
-    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: calc(17 / 14);
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
-}
-.advantage-line{
-    position: absolute;
-    left: 376px;
-    width: 124px;
-    height: 0px;
-    transform: rotate(90deg);
-    border: 1px solid rgba(255, 255, 255, 0.5);
 }
