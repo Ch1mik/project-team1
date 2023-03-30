@@ -112,7 +112,7 @@
 }
 @media only screen and (min-width: 1200px) {
   .section-footer {
-    max-width: 1440px;
+    max-width: 1200px;
   }
   .container {
     max-width: 1200px;
