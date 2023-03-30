@@ -21,7 +21,7 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
-    <link rel="stylesheet" href="/project-team1/assets/index-731c3b44.css">
+    <link rel="stylesheet" href="/project-team1/assets/index-5cceba95.css">
   </head>
   <body>
       <div class="container-header">
@@ -471,46 +471,69 @@
 
       <section class="section">
   <div class="container">
-    <h2 class="sellers"><span class="sellers-style">TOP</span> Sellers</h2>
+    <h2 class="sellers"><span class="sellers-style">TOP</span> SELLERS</h2>
     <ul class="sellers-block">
       <li class="sellers-link sellers-hiro">
-        <img
-          class="sellers-img"
-          srcset="/project-team1/assets/desk-nut@1x-5778dda8.jpg 368w, /project-team1/assets/tab-nuts@1x-0e28eb59.jpg 344w, /project-team1/assets/mob-nuts@1x-cdb2af8a.jpg 335w, /project-team1/assets/desk-nut@2x-347e3455.jpg 736w, /project-team1/assets/tab-nuts@2x-a7029330.jpg 688w, /project-team1/assets/mob-nuts@2x-f5c4463d.jpg 770w"
-          sizes="(min-width: 1200px) 368px, (min-width: 768px) 344px, (min-width: 480px) 335px, 100vw"
-          src="/project-team1/assets/mob-nuts@1x-cdb2af8a.jpg"
-          alt="nuts"
-          width="368"
-          height="464"
-        />
+        <picture>
+          <source
+            srcset="/project-team1/assets/desk-nut@1x-5778dda8.jpg , /project-team1/assets/desk-nut@2x-347e3455.jpg "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/project-team1/assets/tab-nuts@1x-0e28eb59.jpg , /project-team1/assets/tab-nuts@2x-a7029330.jpg "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/project-team1/assets/mob-nuts@1x-cdb2af8a.jpg , /project-team1/assets/mob-nuts@2x-f5c4463d.jpg "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="sellers-img"
+            src="/project-team1/assets/mob-nuts@2x-f5c4463d.jpg"
+            alt="white-choco"
+          />
+        </picture>
         <p class="sellers-text sellers-hiro">
           Crazy enough chocolate originates from a bean just like the coffee
           bean called Cacao. Cacao has been around for thousands of years and
           was first discovered by the Native American tribe called the Mayans.
         </p>
       </li>
-      <li class="sellers-link">
-        <img
-          class="sellers-img"
-          srcset="/project-team1/assets/desk-white-choco@1x-9bb6ee26.jpg 368w, /project-team1/assets/tab-white-choco@1x-282baf1c.jpg 344w, /project-team1/assets/mob-white-choco@1x-8e2741c2.jpg 335w, /project-team1/assets/desk-white-choco@2x-2753a6d4.jpg 736w, /project-team1/assets/tab-white-choco@2x-5052f4c1.jpg 688w, /project-team1/assets/mob-white-choco@2x-872eeb62.jpg 770w"
-          sizes="(min-width: 1200px) 368px, (min-width: 768px) 344px, (min-width: 480px) 335px, 100vw"
-          src="/project-team1/assets/mob-white-choco@1x-8e2741c2.jpg"
-          alt="white-choco"
-          width="368"
-          height="464"
-        />
+      <li class="sellers-link sellers-hiro">
+        <picture>
+          <source
+            srcset="/project-team1/assets/desk-white-choco@1x-9bb6ee26.jpg , /project-team1/assets/desk-white-choco@2x-2753a6d4.jpg "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/project-team1/assets/tab-white-choco@1x-282baf1c.jpg , /project-team1/assets/tab-white-choco@2x-5052f4c1.jpg "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/project-team1/assets/mob-white-choco@1x-8e2741c2.jpg , /project-team1/assets/mob-white-choco@2x-872eeb62.jpg "
+            media="(min-width: 320px)"
+          />
+          <img
+            class="sellers-img"
+            src="/project-team1/assets/desk-white-choco@1x-9bb6ee26.jpg"
+            alt="white-choco"
+          />
+        </picture>
       </li>
       <li class="sellers-link sellers-displey">
-        <img
-          class="sellers-img"
-          srcset="/project-team1/assets/desk-dark-choco@1x-b2febfb0.jpg 368w, /project-team1/assets/desk-dark-choco@2x-36997760.jpg 736w"
-          sizes="(min-width: 1200px) 368px, (min-width: 768px) 344px, (min-width: 480px) 335px, 100vw"
-          src="/project-team1/assets/desk-dark-choco@1x-b2febfb0.jpg"
-          alt="dark-choco"
-          width="368"
-          height="464"
-        />
+        <picture>
+          <source
+            srcset="/project-team1/assets/desk-dark-choco@1x-b2febfb0.jpg , /project-team1/assets/desk-dark-choco@2x-36997760.jpg "
+            media="(min-width: 1200px)"
+          />
+          <img
+            class="sellers-img"
+            src="/project-team1/assets/desk-white-choco@1x-9bb6ee26.jpg"
+            alt="white-choco"
+          />
+        </picture>
       </li>
+
       <li class="sellers-link sellers-link-button data-modal-open">
         <button type="button" class="button sellers-button" data-modal-open>
           Buy now
