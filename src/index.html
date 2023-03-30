@@ -23,13 +23,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <load ="partials/header.html" />
-    </header>
+    <load ="partials/header.html" />
     <main>
       <load ="partials/hero.html" />
-      <!-- <load ="partials/benefits.html" />  -->
-      <load ="partials/advantages.html" />
+      <!-- <load ="partials/advantages.html" /> -->
       <load ="partials/unique-components.html" />
       <load ="partials/how-made.html" />
       <load ="partials/our-products.html" />
@@ -37,10 +34,8 @@
       <load ="partials/rewiews.html" />
       <load ="partials/subscribe.html" />
     </main>
-    <footer>
-      <load ="partials/footer.html" />
-    </footer>
-
+    <load ="partials/footer.html" />
+    <load ="partials/mobile-menu.html" />
     <script>
       var swiper = new Swiper('.mySwiper', {
         slidesPerView: 'auto',
@@ -51,5 +46,12 @@
         },
       });
     </script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
