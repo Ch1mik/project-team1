@@ -1,0 +1,132 @@
+.menu-toggle {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+}
+
+@media (min-width: 1200px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+.mobile-menu-svg{
+
+    fill: none;
+    stroke: #FAFAFA; 
+
+}
+.socials-link-icon{
+outline: transparent;
+    border: none;
+}
+.socials-link-icon:hover .mobile-menu-svg,
+.socials-link-icon:focus .mobile-menu-svg{
+    stroke: #FD9222;
+   
+}
+
+.menu-container {
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 50%;
+    width: 50vw;
+    height: 100vh;
+    padding-top: 136px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #1E1823;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 800ms ease-out, visibility 800ms ease-out;
+}
+@media screen and (min-width: 768px) {
+    .menu-container {
+        padding-top: 156px;
+        padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: 24px;
+    }
+}
+.menu-container.is-open {
+
+    opacity: 1;
+    visibility: visible;
+  
+
+}
+.mobile-menu {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: auto;
+}
+@media screen and (min-width: 768px) {
+.mobile-menu {
+    margin-left: 85px;
+    }
+}
+.mobile-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    outline: transparent;
+    border: none;
+}
+
+
+.mobile-menu-link:hover,
+.mobile-menu-link:focus{
+    color: #FD9222;
+  
+}
+.mobile-socials {
+    display: flex;
+    gap: 18px;
+}
+
+
+.mobile-icon-close{
+    
+    stroke:  #ffffff;
+
+}
+.menu-toggle-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    outline: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+}
+
+.menu-toggle-close:hover .mobile-icon-close,
+.menu-toggle-close:focus .mobile-icon-close{
+stroke: #FD9222;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
