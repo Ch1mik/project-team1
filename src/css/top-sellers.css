@@ -93,3 +93,8 @@
             transform: translateX(496px) translateY(496px);
         }
 }
+.sellers-button:hover,
+.sellers-button:focus{
+    color: #FD9222;
+    background: #FCF1E0;
+}
