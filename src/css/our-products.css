@@ -1,5 +1,6 @@
 .section-product {
   padding-bottom: 89px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -33,8 +34,12 @@
     max-width: 768px;
     padding: 0 32px;
   }
-  .swiper-slide {
+  .section-product .swiper-slide {
     max-width: 270px;
+  }
+
+  .section-product .swiper {
+    overflow: visible;
   }
 }
 
@@ -43,9 +48,12 @@
     padding: 0 32px;
     max-width: 1200px;
   }
+  .section-product .swiper {
+    overflow: hidden;
+  }
 }
 
-.swiper-slide {
+.section-product .swiper-slide {
   width: 100%;
   background-color: #fff;
   text-align: center;
@@ -55,7 +63,7 @@
   padding-bottom: 32px;
 }
 
-.swiper-slide img {
+.section-product .swiper-slide img {
   margin: 0 auto;
   margin-bottom: 8px;
 }
@@ -94,28 +102,28 @@
   border-radius: 100px;
 }
 
-.swiper-pagination {
+.section-product .swiper-pagination {
   position: relative;
 }
 
-.swiper-pagination-bullet {
+.section-product .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
 }
 
-.swiper-pagination-bullet-active {
+.section-product .swiper-pagination-bullet-active {
   width: 28px;
   border-radius: 20px;
   background-color: #fd9222;
   color: #fd9222;
 }
 
-.swiper-pagination-bullets.swiper-pagination-horizontal {
+.section-product .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: -20px;
 }
 
 @media screen and (min-width: 768px) {
-  .swiper-pagination-bullets.swiper-pagination-horizontal {
+  .section-product .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: -32px;
   }
 }
