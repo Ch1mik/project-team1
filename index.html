@@ -21,55 +21,71 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
-    <link rel="stylesheet" href="/project-team1/assets/index-5cceba95.css">
+    <link rel="stylesheet" href="/project-team1/assets/index-a80ce683.css">
   </head>
   <body>
-      <div class="container-header">
-  <nav class="nav">
-    <div class="logo-header">
-      <a class="logo-link" href="./index.html"
-        ><span class="logo-span">SIMPLY</span>&nbsp;CHOCOLATE<svg
-          class="icon-chocolate-header"
-          width="21"
-          height="21"
+    <header>
+  <div class="container-header">
+    <nav class="nav">
+      <div class="logo-header">
+        <a class="logo-link" href="./index.html"
+          ><span class="logo-span">SIMPLY</span>&nbsp;CHOCOLATE<svg
+            class="icon-chocolate-header"
+            width="21"
+            height="21"
+          >
+            <use href="/project-team1/assets/icon-197b5073.svg#icon-chocolate"></use></svg
+        ></a>
+      </div>
+      <ul class="menu-header">
+        <li><a class="header-menu-link" href="./index.html">Home</a></li>
+        <li><a class="header-menu-link" href="#how-made">How it’s made?</a></li>
+        <li>
+          <a class="header-menu-link" href="#our-products">Our products</a>
+        </li>
+        <li><a class="header-menu-link" href="#top-sellers">Top sellers</a></li>
+        <li>
+          <a class="header-menu-link" href="#chocolate-is-loved"
+            >Chocolate is loved</a
+          >
+        </li>
+      </ul>
+      <ul class="socials-header">
+        <li class="icon-social-item">
+          <a
+            class="icon-social-link"
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            ><svg class="icon-social-svg" width="24" height="24">
+              <use href="/project-team1/assets/icon-197b5073.svg#icon-instagram"></use></svg
+          ></a>
+        </li>
+        <li class="icon-social-item">
+          <a
+            class="icon-social-link"
+            href="https://twitter.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            ><svg class="icon-social-svg" width="24" height="24">
+              <use href="/project-team1/assets/icon-197b5073.svg#icon-twitter"></use></svg
+          ></a>
+        </li>
+      </ul>
+      <div class="display-none">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
         >
-          <use href="/project-team1/assets/icon-197b5073.svg#icon-chocolate"></use></svg
-      ></a>
-    </div>
-    <ul class="menu-header">
-      <li><a class="header-menu-link" href="./index.html">Home</a></li>
-      <li><a class="header-menu-link" href="">How it’s made?</a></li>
-      <li><a class="header-menu-link" href="">Our products</a></li>
-      <li><a class="header-menu-link" href="">Top sellers</a></li>
-      <li><a class="header-menu-link" href="">Chocolate is loved</a></li>
-    </ul>
-    <ul class="socials-header">
-      <li class="icon-social-item">
-        <a class="icon-social-link" href=""
-          ><svg class="icon-social-svg" width="24" height="24">
-            <use href="/project-team1/assets/icon-197b5073.svg#icon-instagram"></use></svg
-        ></a>
-      </li>
-      <li class="icon-social-item">
-        <a class="icon-social-link" href=""
-          ><svg class="icon-social-svg" width="24" height="24">
-            <use href="/project-team1/assets/icon-197b5073.svg#icon-twitter"></use></svg
-        ></a>
-      </li>
-    </ul>
-    <div class="display-none">
-      <button
-        class="menu-toggle"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg class="icon-burger" width="28" height="28">
-          <use href="/project-team1/assets/icon-197b5073.svg#icon-burger"></use>
-        </svg>
-      </button>
-    </div>
-  </nav>
-</div>
+          <svg class="icon-burger" width="28" height="28">
+            <use href="/project-team1/assets/icon-197b5073.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
 
     <main>
       
@@ -349,35 +365,57 @@
 </section>
 
       <section class="section-how-made">
-    <div class="container">
-        <h2 class="title-how-made">how it&#39;s <span class="title-how-made made">made?</span></h2>
-        <div class="container-how-made">
-            <div class="container-video">
-            <iframe 
-            width="560" 
-            height="620" 
-            src="https://www.youtube.com/embed/HXE4bq5EoOc" 
-            title="YouTube video player" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        <div class="container-try">
-            <h3 class="title-try">Try  our chocolates today and discover the perfect balance of flavor</h3>
-            <ul class="title-made">
-                <li class="item-made">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</li>
-                <li class="item-made">At the same time, prepare a water bath. Melt the butter on it.</li>
-                <li class="item-made">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes uniform and silky.</li>
-                <li class="item-made">Heat the mixture over low heat, letting it barely boil.</li>
-                <li class="item-made">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</li>
-            </ul>
-        </div>
-        </div>
+  <div class="container">
+    <h2 class="title-how-made" id="how-made">
+      how it&#39;s <span class="title-how-made made">made?</span>
+    </h2>
+    <div class="container-how-made">
+      <div class="container-video">
+        <iframe
+          width="560"
+          height="620"
+          src="https://www.youtube.com/embed/HXE4bq5EoOc"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="container-try">
+        <h3 class="title-try">
+          Try our chocolates today and discover the perfect balance of flavor
+        </h3>
+        <ul class="title-made">
+          <li class="item-made">
+            Heat the milk in a saucepan without bringing it to a boil. Add sugar
+            and cocoa powder.
+          </li>
+          <li class="item-made">
+            At the same time, prepare a water bath. Melt the butter on it.
+          </li>
+          <li class="item-made">
+            "Mix" the milk mixture and already liquid butter. Mix thoroughly
+            with a silicone spatula so that the mass becomes uniform and silky.
+          </li>
+          <li class="item-made">
+            Heat the mixture over low heat, letting it barely boil.
+          </li>
+          <li class="item-made">
+            Pour the chocolate into special containers (can be replaced with ice
+            molds). Allow to cool and harden.
+          </li>
+        </ul>
+      </div>
     </div>
-</section> 
+  </div>
+</section>
+
       <!-- <div class="section">
   <div class="product-container"> -->
 <div class="section section-product">
   <div class="container">
-    <h2 class="section-title product-title">Our <span>pRODUCTS</span></h2>
+    <h2 class="section-title product-title" id="our-products">
+      Our <span>pRODUCTS</span>
+    </h2>
     <div class="swiper mySwiper">
       <ul class="swiper-wrapper list">
         <li class="swiper-slide link">
@@ -487,7 +525,9 @@
 
       <section class="section">
   <div class="container">
-    <h2 class="sellers"><span class="sellers-style">TOP</span> SELLERS</h2>
+    <h2 class="sellers" id="top-sellers">
+      <span class="sellers-style">TOP</span> Sellers
+    </h2>
     <ul class="sellers-block">
       <li class="sellers-link sellers-hiro">
         <picture>
@@ -561,7 +601,9 @@
 
       <div class="section section-review">
   <div class="container">
-    <h2 class="section-title review-title"><span>chocolate</span> is loved</h2>
+    <h2 class="section-title review-title" id="chocolate-is-loved">
+      <span>chocolate</span> is loved
+    </h2>
     <ul class="review-list list">
       <li class="review-link link">
         <img
@@ -621,7 +663,55 @@
 
       
     </main>
-      
+    
+    <div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle-close js-close-menu">
+    <svg class="mobile-icon-close" width="20" height="20">
+      <use href="/project-team1/assets/icon-197b5073.svg#icon-close_cros"></use>
+    </svg>
+  </button>
+
+  <ul class="mobile-menu">
+    <li><a href="./index.html" class="mobile-menu-link">Home</a></li>
+    <li>
+      <a href="#how-made" class="mobile-menu-link">How it’s made?</a>
+    </li>
+    <li><a href="#our-products" class="mobile-menu-link">Our products</a></li>
+    <li><a href="#top-sellers" class="mobile-menu-link">Top sellers</a></li>
+    <li>
+      <a href="#chocolate-is-loved" class="mobile-menu-link"
+        >Chocolate is loved</a
+      >
+    </li>
+  </ul>
+  <ul class="mobile-socials">
+    <li class="socials-item">
+      <a
+        class="socials-link-icon"
+        href="https://www.instagram.com"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <svg class="mobile-menu-svg" width="24" height="24">
+          <use href="/project-team1/assets/icon-197b5073.svg#icon-instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="socials-item">
+      <a
+        class="socials-link-icon"
+        href="https://twitter.com"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <svg class="mobile-menu-svg" width="24" height="24">
+          <use href="/project-team1/assets/icon-197b5073.svg#icon-twitter"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
     <script>
       var swiper = new Swiper('.mySwiper', {
         slidesPerView: 'auto',
@@ -632,5 +722,12 @@
         },
       });
     </script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
