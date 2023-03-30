@@ -33,6 +33,21 @@
       <load ="partials/rewiews.html" />
       <load ="partials/subscribe.html" />
     </main>
+    <footer>
+      <load ="partials/footer.html" />
+    </footer>
+
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 18,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="./js/subscribe.js"></script>
     <load ="partials/footer.html" />
     <load ="partials/mobile-menu.html" />
     <script
