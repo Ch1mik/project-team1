@@ -1,5 +1,3 @@
-# Превью
-![video](./src/public/BEES.mp4)
 # Учасники команди Dead bees don't buzzing
 @Ch1mik - Teamlead, секція Advantages
 
