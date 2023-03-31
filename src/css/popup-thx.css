@@ -15,7 +15,7 @@
   transition: opacity var(--anim-fast), visibility var(--anim-fast);
 }
 
-.backdrop.is-hidden-p {
+.backdrop.is-hidden-s {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;

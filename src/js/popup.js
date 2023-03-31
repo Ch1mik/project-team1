@@ -1,14 +1,21 @@
+
 (() => {
-  const refs = {
-    openModalBtn: document.querySelector("[data-modal-open-popup]"),
-    closeModalBtn: document.querySelector("[data-modal-close-popup]"),
-    modal: document.querySelector("[data-modal-popup]"),
+  const mobileMenu = document.querySelector('.s-menu-container');
+  const openMenuBtn = document.querySelector('.s-open-menu');
+  const closeMenuBtn = document.querySelector('.s-close-menu');
+  const toggleMenu = () => {
+    const isMenuOpen =
+      openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
+    openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
+    mobileMenu.classList.toggle('is-hidden-s');
+
+    const scrollLockMethod = !isMenuOpen
+      ? 'disableBodyScroll'
+      : 'enableBodyScroll';
+    bodyScrollLock[scrollLockMethod](document.body);
   };
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle("is-hidden-p");
-  }
+  openMenuBtn.addEventListener('click', toggleMenu);
+  closeMenuBtn.addEventListener('click', toggleMenu);
+  
 })();
