@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .section-hero {
     padding: 0 20px 72px;
 }
