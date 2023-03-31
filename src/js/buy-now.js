@@ -1,23 +1,37 @@
 (() => {
   const mobileMenu = document.querySelector('.v-menu-container');
-  const openMenuBtn = document.querySelector('.v-open-menu');
-  const closeMenuBtn = document.querySelector('.v-close-menu');
+  const openMenuBtn = document.querySelectorAll('.v-open-menu');
+  const closeMenuBtn = document.querySelectorAll('.v-close-menu');
 const linksMobileMenu = document.querySelectorAll('.v-mobile-link-close');
-  const toggleMenu = () => {
+ 
+  closeMenuBtn.forEach(closeMenuBtn => closeMenuBtn.addEventListener('click', () => {
     const isMenuOpen =
-      openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
-    openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
     mobileMenu.classList.toggle('is-hidden');
 
     const scrollLockMethod = !isMenuOpen
       ? 'disableBodyScroll'
       : 'enableBodyScroll';
     bodyScrollLock[scrollLockMethod](document.body);
-  };
+  }));
+  openMenuBtn.forEach(openMenuBtn => openMenuBtn.addEventListener('click', () => {
+    const isMenuOpen =
+    mobileMenu.classList.toggle('is-hidden');
 
-  openMenuBtn.addEventListener('click', toggleMenu);
-  closeMenuBtn.addEventListener('click', toggleMenu);
-  linksMobileMenu.forEach(linksMobileMenu => linksMobileMenu.addEventListener('click', toggleMenu));
+    const scrollLockMethod = !isMenuOpen
+      ? 'disableBodyScroll'
+      : 'enableBodyScroll';
+    bodyScrollLock[scrollLockMethod](document.body);
+  }));
+
+  linksMobileMenu.forEach(linksMobileMenu => linksMobileMenu.addEventListener('click', () => {
+    const isMenuOpen =
+    mobileMenu.classList.toggle('is-hidden');
+
+    const scrollLockMethod = !isMenuOpen
+      ? 'disableBodyScroll'
+      : 'enableBodyScroll';
+    bodyScrollLock[scrollLockMethod](document.body);
+  }));
 })();
 
 
