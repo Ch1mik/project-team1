@@ -3,7 +3,7 @@
   color: #fafafa;
   text-align: center;
   padding: 20px 0;
-  max-width: 375px;
+  /* max-width: 375px; */
   margin: 0 auto;
 }
 .accent {
@@ -12,8 +12,8 @@
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 22px;
+  justify-content: flex-start;
+  column-gap: 49px;
 }
 .footer-title {
   margin-bottom: 32px;
@@ -54,6 +54,7 @@
   flex-direction: row;
   gap: 16px;
 }
+
 .ftr-social-title {
   display: flex;
   flex-direction: row;
@@ -68,7 +69,8 @@
   stroke: #fd9222;
 }
 .ftr-pages-list {
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 335px;
 }
 
 .footer-menu {
@@ -79,27 +81,32 @@
   text-align: start;
 }
 
-@media only screen and (min-width: 765px) {
+@media only screen and (min-width: 768px) {
   .section-footer {
-    max-width: 768px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
   .container {
-    padding-left: 32px;
-    padding-right: 32px;
     max-width: 768px;
   }
   .footer-container {
-    margin-bottom: 86px;
-    gap: 86px;
+    margin-bottom: 50px;
+    align-items: baseline;
+    column-gap: 75px;
+  }
+  .ftr-contact-list {
+    margin-bottom: 0;
   }
   .footer-title {
     width: 300px;
     height: 68px;
+    margin-bottom: 0;
   }
   .ftr-contact-item {
     margin-bottom: 0;
+  }
+  .ftr-social {
+    margin-left: 24px;
   }
   .footer-menu {
     display: flex;
@@ -109,19 +116,32 @@
   .footer-pages {
     margin-bottom: 0;
   }
+  .ftr-pages-list {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 704px;
+  }
 }
 @media only screen and (min-width: 1200px) {
+  .ftr-social {
+    margin-left: 0;
+  }
   .section-footer {
     max-width: 1200px;
   }
   .container {
     max-width: 1200px;
+    margin-bottom: 58px;
   }
   .footer-container {
     gap: 63px;
   }
   .ftr-contact {
     margin-left: 469px;
+  }
+  .ftr-pages-list {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1136px;
+    margin: 0;
   }
 }
 .icon-close_cros {
