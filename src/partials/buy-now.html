@@ -1,0 +1,150 @@
+<!-- MODAL -->
+
+<div class="backdrop is-hidden" data-modal-buy-now>
+  <div class="modal-products">
+    <button type="button" class="modal-close" data-modal-close-buy-now>
+      <svg class="modal-close-ico" width="24" height="24">
+        <use href="./img/icon.svg#icon-close_cros"></use>
+      </svg>
+    </button>
+    <p class="modal-title"><span>bUY</span> nOW</p>
+    <div class="swiper swiperProduct-modal">
+      <ul class="swiper-wrapper swiper-wrapper-list list">
+        <li class="swiper-slide swiper-slide-link link">
+          <picture>
+            <source
+              srcset="
+                ./img/modal-buy-now/desk-100g-choco@1x.png 1x,
+                ./img/modal-buy-now/desk-100g-choco@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/modal-buy-now/mob-100g-choco@1x.png 1x,
+                ./img/modal-buy-now/mob-100g-choco@2x.png 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img
+              class="projects-overlay-wrapper-img"
+              src="./img/modal-buy-now/desk-100g-choco@1x.png"
+              alt="Project card"
+            />
+          </picture>
+          <a class="slide-price link" href="#">100 g</a>
+        </li>
+        <li class="swiper-slide swiper-slide-link link">
+          <picture>
+            <source
+              srcset="
+                ./img/modal-buy-now/desk-200g-choco@1x.png 1x,
+                ./img/modal-buy-now/desk-200g-choco@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/modal-buy-now/mob-200g-choco@1x.png 1x,
+                ./img/modal-buy-now/mob-200g-choco@2x.png 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img
+              class="projects-overlay-wrapper-img"
+              src="./img/modal-buy-now/desk-200g-choco@1x.png"
+              alt="Project card"
+            />
+          </picture>
+          <a class="slide-price link" href="#">200 g</a>
+        </li>
+        <li class="swiper-slide swiper-slide-link link">
+          <picture>
+            <source
+              srcset="
+                ./img/modal-buy-now/desk-300g-choco@1x.png 1x,
+                ./img/modal-buy-now/desk-300g-choco@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/modal-buy-now/mob-300g-choco@1x.png 1x,
+                ./img/modal-buy-now/mob-300g-choco@2x.png 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img
+              class="projects-overlay-wrapper-img"
+              src="./img/modal-buy-now/desk-300g-choco@1x.png"
+              alt="Project card"
+            />
+          </picture>
+          <a class="slide-price link" href="#">300 g</a>
+        </li>
+      </ul>
+    </div>
+    <div class="swiper-paginat"></div>
+
+    <form class="modal-form">
+      <p class="modal-help-info">Personal information</p>
+      <div class="imput-name-flex">
+        <input
+          class="modal-form-input modal-form-input-paddig"
+          type="text"
+          name="user_name"
+          required
+          pattern="[a-zA-Z]+$"
+          placeholder="Name"
+        />
+        <input
+          class="modal-form-input"
+          type="text"
+          name="user_surname"
+          required
+          pattern="[a-zA-Z]+$"
+          placeholder="Surname"
+        />
+      </div>
+
+      <p class="modal-help-info">Email</p>
+      <input
+        class="modal-form-input"
+        name="user_email"
+        required
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        placeholder="Enter your email"
+      />
+      <p class="modal-help-info">Phone number</p>
+      <input
+        class="modal-form-input"
+        type="tel"
+        name="user_number"
+        required
+        placeholder="Phone number"
+      />
+      <p class="modal-help-info">Card number</p>
+      <input
+        class="modal-form-input"
+        type="number"
+        name="user_card"
+        required
+        placeholder="Enter card"
+      />
+      <p class="modal-help-info">Comment</p>
+      <textarea
+        class="modal-form-input modal-form-textarea"
+        name="user_message"
+        placeholder="Enter text"
+      ></textarea>
+      <button
+        type="submit"
+        class="button button-modal"
+        data-modal-close-buy-now
+        data-modal-open-popup
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>

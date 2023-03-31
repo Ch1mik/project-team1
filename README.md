@@ -1,3 +1,19 @@
+![logo](./src/public/BEES.gif)
+# Учасники команди Dead bees don't buzzing
+@Ch1mik - Teamlead, секція Advantages
+
+@LeraF825 - Scrum-master, секції Hero and How-made
+
+@sashadubovyi - розробник, секція Unique-components
+
+@kutsarvasya - розробник, секція Header
+
+@Orest278 - розробник, секція Top-sellers
+
+@AntoninaGraur - розробник, секції Footer, Subscribe
+
+@VladyslavTodo - розробник, секція Reviews
+
 # Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
