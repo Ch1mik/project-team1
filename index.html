@@ -44,8 +44,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/project-team1/assets/index-8af9e2b1.js"></script>
-    <link rel="stylesheet" href="/project-team1/assets/index-d66322c0.css">
+    <script type="module" crossorigin src="/project-team1/assets/index-45f19ba3.js"></script>
+    <link rel="stylesheet" href="/project-team1/assets/index-94c3c9f6.css">
   </head>
   <body>
     <header>
@@ -644,7 +644,9 @@
 
       <section class="section section-reviews">
   <div class="container">
-    <h2 class="section-title reviews-title" id="chocolate-is-loved"><span>chocolate</span> is loved</h2>
+    <h2 class="section-title reviews-title" id="chocolate-is-loved">
+      <span>chocolate</span> is loved
+    </h2>
     <div class="swiper swiperReviews">
       <ul class="swiper-wrapper list">
         <li class="swiper-slide link">
@@ -756,7 +758,9 @@
       </ul>
     </div>
     <div class="swiper-pagin"></div>
-    <button class="button product-button">Leave a review</button>
+    <button class="button product-button" data-modal-review-open>
+      Leave a review
+    </button>
   </div>
 </section>
 
@@ -1073,6 +1077,77 @@
     </form>
   </div>
 </div>
+
+     <div class="backdrop is-hidden" data-modal-rewiews>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-review-close-btn>
+          <svg class="modal-icon" width="12" height="12">
+            <use href="../img/icon.svg#icon-close_cros"></use>
+          </svg>
+        </button>
+
+        <strong class="modal-rewiews-cta modal-rewiews-display"
+          >leave a review about
+          <span class="modal-rewiews-color">our&nbsp;chocolate</span>
+        </strong>
+
+        <strong class="modal-rewiews-cta modal-rewiews-display-none"
+          >leave a review about&nbsp;<span class="modal-rewiews-color"
+            >our chocolate</span
+          >
+        </strong>
+
+        <form class="modal-rewiews" name="contact_form">
+          <div class="modal-rewiews-group">
+            <input
+              class="modal-rewiews-field"
+              name="user"
+              type="text"
+              id="user_name"
+              placeholder="Name"
+            />
+          </div>
+
+          <div class="modal-rewiews-group">
+            <input
+              class="modal-rewiews-field"
+              name="email"
+              type="email"
+              id="user_email"
+              placeholder="Entre your email"
+            />
+          </div>
+
+          <div class="modal-rewiews-group">
+            <input
+              class="modal-rewiews-field"
+              name="phone"
+              type="tel"
+              id="user_phone"
+              placeholder="Phone number"
+            />
+          </div>
+
+          <textarea
+            class="modal-rewiews-message"
+            name="user_comment"
+            id="user_comment"
+            rows="5"
+            placeholder="Enter text"
+          ></textarea>
+        </form>
+
+        <button
+          type="submit"
+          class="button modal-rewiews-btn"
+          data-modal-review-close-submit
+        >
+          Send
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
 
     <script
       defer
