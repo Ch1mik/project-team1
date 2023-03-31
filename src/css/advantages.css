@@ -70,7 +70,6 @@
     align-items: center;
   }
 .advantage-title{
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: calc(22 / 18);
@@ -78,7 +77,6 @@
 }
 .advantage-text{
     max-width: 308px;
-    font-style: normal;
     line-height: calc(17 / 14);
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
