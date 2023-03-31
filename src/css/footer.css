@@ -1,9 +1,9 @@
 .section-footer {
   background-color: #1e1823;
   color: #fafafa;
-  text-align: center;
+
   padding: 20px 0;
-  /* max-width: 375px; */
+
   margin: 0 auto;
 }
 .accent {
@@ -70,7 +70,7 @@
 }
 .ftr-pages-list {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  width: 335px;
+  max-width: 335px;
 }
 
 .footer-menu {
@@ -118,15 +118,12 @@
   }
   .ftr-pages-list {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    width: 704px;
+    max-width: 704px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ftr-social {
     margin-left: 0;
-  }
-  .section-footer {
-    max-width: 1200px;
   }
   .container {
     max-width: 1200px;
@@ -140,7 +137,7 @@
   }
   .ftr-pages-list {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    width: 1136px;
+    max-width: 1136px;
     margin: 0;
   }
 }
