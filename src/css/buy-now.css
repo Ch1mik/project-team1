@@ -1,0 +1,233 @@
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  z-index: 999;
+  transform: scale(1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-attachment: fixed;
+  overflow-y: scroll;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: scale(0.5);
+}
+
+.modal-products {
+  position: relative;
+  width: 311px;
+  padding: 32px 24px;
+  background: #fafafa;
+  border-radius: 15px;
+  margin: 20px auto;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-products {
+    position: relative;
+    width: 609px;
+    padding: 48px;
+
+    background: #fafafa;
+    border-radius: 15px;
+  }
+}
+
+.modal-close-ico {
+  stroke: #111111;
+}
+
+
+.modal-products .modal-close {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+  background-color: transparent;
+}
+
+.modal-products .modal-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.modal-products .modal-title span {
+  color: #fd9222;
+}
+
+/* Modal swiper */
+
+@media screen and (max-width: 767px) {
+  .swiperProduct-modal {
+    width: 231px;
+    height: 257px;
+    margin-bottom: 59px;
+  }
+
+  .swiperProduct-modal .swiper-slide {
+    padding: 32px;
+
+    background: #ffffff;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+
+  .swiperProduct-modal .swiper-slide img {
+    margin: 0 auto;
+    margin-bottom: 16px;
+    width: 167px;
+    height: 148px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiperProduct-modal .swiper-slide img {
+    width: 120px;
+    height: 107px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+  }
+
+  .swiper-wrapper-list {
+    margin-bottom: 40px;
+  }
+}
+
+/* pagination */
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: relative;
+  bottom: 45px;
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+}
+
+.modal-products .swiper-pagination-bullet-active {
+  width: 28px;
+  border-radius: 20px;
+  background-color: #fd9222;
+  color: #fd9222;
+}
+
+/* modal input */
+
+.modal-help-info {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.modal-form-input {
+  width: 100%;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 8px;
+  padding: 14px 18px;
+  background-color: transparent;
+  margin-bottom: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-form-input {
+    padding: 22px 24px;
+  }
+}
+
+.modal-form-input-paddig {
+  margin-bottom: 14px;
+}
+
+.modal-form-input ::placeholder {
+  line-height: 17px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: rgba(64, 64, 64, 0.3);
+}
+
+@media screen and (min-width: 768px) {
+  .modal-form-input ::placeholder {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.modal-form-textarea {
+  width: 100%;
+  height: 91px;
+  resize: none;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-form-textarea {
+    height: 137px;
+  }
+}
+
+.button-modal {
+  width: 109px;
+  height: 41px;
+  padding: 12px 28px;
+}
+
+.button-modal:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+@media screen and (min-width: 768px) {
+  .button-modal {
+    width: 133px;
+    height: 45px;
+    padding: 14px 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .imput-name-flex {
+    display: flex;
+  }
+  .modal-form-input-paddig {
+    margin-right: 21px;
+  }
+}
+
+.swiper-slide-link {
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 24px 20px 18px 20px;
+}
