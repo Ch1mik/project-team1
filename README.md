@@ -11,7 +11,7 @@
 
 @AntoninaGraur - розробник, секції Footer, Subscribe
 
-@VladyslavTodo - розробник, секції Reviews
+@VladyslavTodo - розробник, секція Reviews
 
 # Vanilla App Template
 
