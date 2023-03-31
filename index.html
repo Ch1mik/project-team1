@@ -44,8 +44,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/project-team1/assets/index-451820c5.js"></script>
-    <link rel="stylesheet" href="/project-team1/assets/index-7c1b019b.css">
+    <script type="module" crossorigin src="/project-team1/assets/index-24fe0eba.js"></script>
+    <link rel="stylesheet" href="/project-team1/assets/index-f7eb1ea3.css">
   </head>
   <body>
     <header>
@@ -760,7 +760,11 @@
       </ul>
     </div>
     <div class="swiper-pagin"></div>
-    <button class="button product-button" data-modal-review-open>
+    <button
+      class="button product-button review-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
       Leave a review
     </button>
   </div>
@@ -776,54 +780,14 @@
         with only the finest ingredients and handcrafted with the utmost care,
         each piece is a work of art that is sure to please.
       </p>
-      <button type="button" class="sbscrb-btn" data-sbscrb_modal-open>
-        Subscribe
-      </button>
-    </div>
-  </div>
-  <div class="backdrop-sbscrb is-hidden" data-sbscrb_modal>
-    <div class="sbscrb-modal">
-      <button class="sbscrb-modal-btn" type="button" data-sbscrb_modalclose>
-        <svg width="24" height="24">
-          <use
-            class="sbscrb-modal-icon"
-            href="/project-team1/assets/icon-197b5073.svg#icon-close_cros"
-          ></use>
-        </svg>
-      </button>
-      <img
-        class="sbscrb-modal-img"
-        src="/project-team1/assets/sbscrb_pop_up_mob@1x-f0c0034c.jpg"
-        alt="dark chocolate"
-        srcset="/project-team1/assets/sbscrb_pop_up_mob@2x-df4f9b1f.jpg "
-      />
-      <form class="sbscrb-modal-form">
-        <div class="title-wrap">
-          <strong class="sbscrb-modal-title"
-            >Explore our<span class="accent"> new chocolate </span
-            >first!</strong
-          >
-        </div>
-        <div class="sbscrb-modal-wrapper">
-          <label class="lbl-sbscrb-name" for="user_email"
-            >Enter your email</label
-          >
-          <input
-            class="sbscrb-modal-input"
-            type="email"
-            name="user_email"
-            id="user_email"
-          />
-          <button class="sbscrb-submit-btn" type="submit">Submit</button>
-        </div>
-      </form>
+      <button type="button" class="sbscrb-btn sbc-open-menu">Subscribe</button>
     </div>
   </div>
 </section>
 
-      <div class="backdrop-sbscrb is-hidden" sbscrb_modal>
+      <div class="backdrop-sbscrb sbc-menu-container sbc-is-hidden">
   <div class="sbscrb-modal">
-    <button class="sbscrb-modal-btn" type="button" data-sbscrb_modalclose>
+    <button class="sbscrb-modal-btn sbc-close-menu" type="button">
       <svg class="sbscrb-icon-size" width="24" height="24">
         <use
           class="sbscrb-modal-icon"
@@ -852,7 +816,9 @@
           id="user_email"
           placeholder="Enter your email"
         />
-        <button class="sbscrb-submit-btn" type="submit">Submit</button>
+        <button class="sbscrb-submit-btn sbc-btn-close-menu" type="submit">
+          Submit
+        </button>
       </div>
     </form>
   </div>
@@ -1143,7 +1109,7 @@
     </div>
     <img
       class="popup-img"
-      src="../img/pop-up-thx/choco.png"
+      src="/project-team1/assets/choco-7b8413ec.png"
       alt="chocolate"
       width="296"
       height="399"
@@ -1151,11 +1117,11 @@
   </div>
 </div>
 
-    <div class="backdrop is-hidden" data-modal-rewiews>
+    <div class="backdrop review-menu-container review-is-hidden">
   <div class="modal">
-    <button class="modal-btn" type="button" data-modal-review-close-btn>
+    <button class="modal-btn review-close-menu" type="button">
       <svg class="modal-icon" width="12" height="12">
-        <use href="../img/icon.svg#icon-close_cros"></use>
+        <use href="/project-team1/assets/icon-197b5073.svg#icon-close_cros"></use>
       </svg>
     </button>
 
@@ -1212,13 +1178,36 @@
 
     <button
       type="submit"
-      class="button modal-rewiews-btn"
-      data-modal-review-close-submit
+      class="button modal-rewiews-btn review-mobile-link-close popup-open-menu"
     >
       Send
     </button>
   </div>
 </div>
+
+    <div class="backdrop popup-menu-container popup-is-hidden">
+  <div class="popup-container">
+    <button class="popup-btn">
+      <svg class="popup-icon-close popup-close-menu" width="16" height="16">
+        <use href="/project-team1/assets/icon-197b5073.svg#icon-close_cros"></use>
+      </svg>
+    </button>
+
+    <div class="popup-content">
+      <h3 class="popup-title">thank you for your feedback!</h3>
+      <p class="popup-text">We are so happy to hear from you!</p>
+    </div>
+    <img
+      class="popup-img"
+      src="/project-team1/assets/choco-7b8413ec.png"
+      alt="chocolate"
+      width="296"
+      height="399"
+    />
+  </div>
+</div>
+
+<!-- is-hidden-s -->
 
     <script
       defer
