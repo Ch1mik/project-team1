@@ -1,6 +1,6 @@
 <div class="backdrop is-hidden" data-modal-rewiews>
   <div class="modal">
-    <button class="modal-btn" type="button" data-modal-review-close-btn>
+    <button class="modal-btn" type="button" data-modal-review-close>
       <svg class="modal-icon" width="12" height="12">
         <use href="../img/icon.svg#icon-close_cros"></use>
       </svg>
@@ -40,12 +40,16 @@
 
       <div class="modal-rewiews-group">
         <input
-          class="modal-rewiews-field"
+          class="modal-rewiews-field modal-rewiews-phone"
           name="phone"
           type="tel"
           id="user_phone"
           placeholder="Phone number"
         />
+
+        <svg class="modal-rewiews-icon" width="31" height="23">
+          <use href="../img/icon.svg#group-icon"></use>
+        </svg>
       </div>
 
       <textarea
@@ -57,12 +61,6 @@
       ></textarea>
     </form>
 
-    <button
-      type="submit"
-      class="button modal-rewiews-btn"
-      data-modal-review-close-submit
-    >
-      Send
-    </button>
+    <button type="submit" class="button modal-rewiews-btn">Send</button>
   </div>
 </div>
