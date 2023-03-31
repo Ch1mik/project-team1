@@ -9,8 +9,8 @@
   z-index: 11;
 }
 
-.backdrop.is-hidden {
-  opacity: 1;
+.backdrop.review-is-hidden {
+  opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
@@ -19,7 +19,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
- transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   width: 311px;
   max-height: 471px;
 
@@ -28,15 +28,15 @@
   background-color: var(--white-color);
   border-radius: 15px;
 }
-@media only screen and (min-width: 768px){
-  .modal{
+@media only screen and (min-width: 768px) {
+  .modal {
     width: 517px;
   }
 }
 
-.backdrop.is-hidden .modal {
+/* .backdrop.review-is-hidden .modal {
   opacity: 1;
-}
+} */
 
 .modal-btn {
   position: absolute;
@@ -56,9 +56,8 @@
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #FCF1E0;
+  background-color: #fcf1e0;
 }
-
 
 .modal-icon {
   position: absolute;
@@ -66,65 +65,64 @@
   right: 0;
   transform: translateX(-50%) translateY(50%);
   stroke: black;
-
 }
 
 .modal-btn:hover .modal-icon,
 .modal-btn:focus .modal-icon {
-  stroke: #F16529;
+  stroke: #f16529;
 }
 
 /* form modal */
-.modal-rewiews-color{
+.modal-rewiews-color {
   color: var(--orange-color);
 }
-.modal-rewiews-cta{
+.modal-rewiews-cta {
   font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-  }
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
 @media only screen and (min-width: 768px) {
-      .modal-rewiews-cta {
-        display: block;
-        width: 297px;
-      }
-    }
-
-  .modal-rewiews{
-    display: flex;
-      flex-direction: column;
-      align-items: stretch;
-      gap: 14px;
-    margin-top: 32px;
-    margin-bottom: 18px;
+  .modal-rewiews-cta {
+    display: block;
+    width: 297px;
   }
+}
 
-  .modal-rewiews-field{
-    width: 100%;
-    height: 45px;
-    border-radius: 5%;
-    padding-left: 18px;
-    color: var(--main-color);
-        border: 1.5px solid rgba(17, 17, 17, 0.05);
-          filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
-  }
+.modal-rewiews {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 14px;
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
 
-  .modal-rewiews-message{
-    padding-top: 14px;
-    padding-left: 18px;
+.modal-rewiews-field {
+  width: 100%;
+  height: 45px;
+  border-radius: 5%;
+  padding-left: 18px;
+  color: var(--main-color);
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+}
 
-    border: 1.5px solid rgba(17, 17, 17, 0.05);
-      filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
-      border-radius: 8px;
-  }
+.modal-rewiews-message {
+  padding-top: 14px;
+  padding-left: 18px;
 
-  .modal-rewiews-btn:hover,
-  .modal-rewiews-btn:focus {
-      color: #FD9222;
-      background: #FCF1E0;
-    }
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 8px;
+}
+
+.modal-rewiews-btn:hover,
+.modal-rewiews-btn:focus {
+  color: #fd9222;
+  background: #fcf1e0;
+}
 @media only screen and (max-width: 768px) {
   .modal-rewiews-btn {
     padding: 14px 28px;
@@ -142,4 +140,3 @@
     display: none;
   }
 }
-
