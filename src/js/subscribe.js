@@ -2,7 +2,7 @@
   const refs = {
     openModalBtn: document.querySelector("[data-sbscrb_modal-open]"),
     closeModalBtn: document.querySelector("[data-sbscrb_modalclose]"),
-    sbscrb_modal: document.querySelector("[sbscrb_modal]"),
+    sbscrb_modal: document.querySelector("[data-sbscrb_modal]"),
   };
 
   refs.openModalBtn.addEventListener("click", toggleModal);
