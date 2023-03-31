@@ -35,9 +35,6 @@
   margin-bottom: 32px;
   text-align: start;
 }
-.footer-item {
-  text-align: start;
-}
 .ftr-contact-title {
   margin-bottom: 14px;
   text-align: start;
@@ -70,7 +67,6 @@
 }
 .ftr-pages-list {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  max-width: 335px;
 }
 
 .footer-menu {
@@ -118,7 +114,6 @@
   }
   .ftr-pages-list {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    max-width: 704px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -127,7 +122,6 @@
   }
   .container {
     max-width: 1200px;
-    margin-bottom: 58px;
   }
   .footer-container {
     gap: 63px;
@@ -137,7 +131,6 @@
   }
   .ftr-pages-list {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    max-width: 1136px;
     margin: 0;
   }
 }
