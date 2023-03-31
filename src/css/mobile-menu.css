@@ -65,7 +65,7 @@ outline: transparent;
 
 }
 .mobile-menu {
-    margin-left: 50px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -73,7 +73,7 @@ outline: transparent;
 }
 @media screen and (min-width: 768px) {
 .mobile-menu {
-    margin-left: 85px;
+    margin-left: 65px;
     }
 }
 .mobile-menu-link {

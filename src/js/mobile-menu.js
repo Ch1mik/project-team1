@@ -29,3 +29,12 @@ const linksMobileMenu = document.querySelectorAll('.mobile-link-close');
 })();
 
 
+// Влад
+
+
+
+
+
+// Саша
+
+
