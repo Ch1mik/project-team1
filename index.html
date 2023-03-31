@@ -44,8 +44,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/project-team1/assets/index-dd0d8823.js"></script>
-    <link rel="stylesheet" href="/project-team1/assets/index-0bedad25.css">
+    <script type="module" crossorigin src="/project-team1/assets/index-451820c5.js"></script>
+    <link rel="stylesheet" href="/project-team1/assets/index-7c1b019b.css">
   </head>
   <body>
     <header>
@@ -110,21 +110,27 @@
 
     <main>
       <section class="section-hero">
-    <div class="container hero-container">
-        <h1 class="hidden">Hero page</h1>
-        <h2 class="hero-subtitle">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h2>
-        <div class="hero-info">
-            <div class="buttons-hero">
-                <button type="button" class="button hero-btn">Buy now</button>
-            <a class="button made-btn" href="#section-made">How it&#39;s made</a>
-            </div>
-                    <a class="button scroll-btn" href="#section-footer">scroll down
-                            <svg class="scroll-icon" width="16" height="16">
-                                <use href="/project-team1/assets/icon-197b5073.svg#icon-chek-box"></use>
-                            </svg>
-                    </a>
-        </div>  
+  <div class="container hero-container">
+    <h1 class="hidden">Hero page</h1>
+    <h2 class="hero-subtitle">
+      Treat yourself or a loved one to our finest ingredients for a moment of
+      pure delight!
+    </h2>
+    <div class="hero-info">
+      <div class="buttons-hero">
+        <button type="button" class="button hero-btn v-open-menu">
+          Buy now
+        </button>
+        <a class="button made-btn" href="#section-made">How it&#39;s made</a>
+      </div>
+      <a class="button scroll-btn" href="#section-footer"
+        >scroll down
+        <svg class="scroll-icon" width="16" height="16">
+          <use href="/project-team1/assets/icon-197b5073.svg#icon-chek-box"></use>
+        </svg>
+      </a>
     </div>
+  </div>
 </section>
 
       <section class="section-advantages">
@@ -629,11 +635,7 @@
           was first discovered by the Native American tribe called the Mayans.
         </p>
         <div>
-          <button
-            type="button"
-            class="button sellers-button"
-            data-modal-open-buy-now
-          >
+          <button type="button" class="button sellers-button v-open-menu">
             Buy now
           </button>
         </div>
@@ -995,9 +997,9 @@
 
     <!-- MODAL -->
 
-<div class="backdrop is-hidden" data-modal-buy-now>
+<div class="backdrop v-menu-container is-hidden">
   <div class="modal-products">
-    <button type="button" class="modal-close" data-modal-close-buy-now>
+    <button type="button" class="modal-close v-close-menu">
       <svg class="modal-close-ico" width="24" height="24">
         <use href="/project-team1/assets/icon-197b5073.svg#icon-close_cros"></use>
       </svg>
@@ -1116,9 +1118,7 @@
       ></textarea>
       <button
         type="submit"
-        class="button button-modal"
-        data-modal-close-buy-now
-        data-modal-open-popup
+        class="button button-modal v-mobile-link-close s-open-menu"
       >
         Submit
       </button>
@@ -1126,10 +1126,10 @@
   </div>
 </div>
 
-    <div class="backdrop is-hidden-p" data-modal-popup>
+    <div class="backdrop s-menu-container is-hidden-s">
   <div class="popup-container">
-    <button class="popup-btn" data-modal-close-popup>
-      <svg class="popup-icon-close" width="16" height="16">
+    <button class="popup-btn">
+      <svg class="popup-icon-close s-close-menu" width="16" height="16">
         <use href="/project-team1/assets/icon-197b5073.svg#icon-close_cros"></use>
       </svg>
     </button>
