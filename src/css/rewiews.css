@@ -1,3 +1,7 @@
+.reviews-title span {
+  color: #fd9222;
+}
+
 @media screen and (min-width: 768px) {
   .section-reviews {
     padding-bottom: 100px;
