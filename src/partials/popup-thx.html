@@ -13,12 +13,19 @@
         discount on all our products.
       </p>
     </div>
-    <img
-      class="popup-img"
-      src="./img/pop-up-thx/choco.png"
-      alt="chocolate"
-      width="296"
-      height="399"
-    />
+    <picture>
+      <source
+        srcset="
+          ./img/pop-up-thx/choco@1x.png 1x,
+          ./img/pop-up-thx/choco@2x.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./img/pop-up-thx/mob@1x.png 1x, ./img/pop-up-thx/mob@2x.png 2x"
+        media="(min-width: 320px)"
+      />
+      <img class="popup-img" src="./img/pop-up-thx/mob@1x.png" alt="choco" />
+    </picture>
   </div>
 </div>
