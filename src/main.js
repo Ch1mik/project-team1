@@ -4,3 +4,4 @@ import './js/reviews';
 import './js/subscribe';
 import './js/buy-now';
 import './js/popup';
+import "./js/rewiews-modal"
