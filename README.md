@@ -1,3 +1,4 @@
+![logo](./src/public/BEES.gif)
 # Учасники команди Dead bees don't buzzing
 @Ch1mik - Teamlead, секція Advantages
 
