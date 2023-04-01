@@ -165,8 +165,10 @@
   color: var(--orange-color);
 }
 
-/* .icon-social-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+.icon-social-item {
+  transition: 0.35s linear;
+}
+
+.icon-social-item:hover {
+  transform: rotate(1turn);
+}
