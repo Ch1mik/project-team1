@@ -37,8 +37,8 @@
   border-radius: 50%;
 }
 
-.sbscrb-modal-btn .sbscrb-modal-icon:hover,
-.sbscrb-modal-btn .sbscrb-modal-icon:focus {
+.sbscrb-modal-btn:hover .sbscrb-modal-icon,
+.sbscrb-modal-btn:focus .sbscrb-modal-icon {
   stroke: #fd9222;
 }
 
@@ -53,6 +53,13 @@
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.sbscrb-modal-btn:hover,
+.sbscrb-modal-btn:focus {
+  background-color: #fcf1e0;
 }
 .title-wrap {
   margin-top: 32px;
@@ -103,6 +110,7 @@
   position: absolute;
   margin-left: 165px;
 }
+
 .sbscrb-submit-btn:hover,
 .sbscrb-submit-btn:focus {
   background-color: #fcf1e0;
@@ -113,9 +121,5 @@
   .sbscrb-modal {
     width: 538px;
     padding-left: 0;
-  }
-  .sbscrb-icon-size {
-    width: 28px;
-    height: 28px;
   }
 }
