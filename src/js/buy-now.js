@@ -18,11 +18,6 @@
   closeMenuBtn.forEach(closeMenuBtn => closeMenuBtn.addEventListener('click', toggleMenu));
 })();
 
-
-
-
-
-
 // modal
 
 var swiper = new Swiper('.swiperProduct-modal', {

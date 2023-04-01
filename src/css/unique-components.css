@@ -1,25 +1,5 @@
-.taste-container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 375px;
-
+.taste {
   padding-bottom: 72px;
-}
-
-@media only screen and (min-width: 768px) {
-  .taste-container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media only screen and (min-width: 1158px) {
-  .taste-container {
-    max-width: 1200px;
-  }
 }
 
 .taste-field {

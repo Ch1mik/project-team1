@@ -1,23 +1,5 @@
 .container-header {
   position: relative;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 375px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container-header {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-header {
-    max-width: 1200px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
