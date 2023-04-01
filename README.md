@@ -14,6 +14,17 @@
 
 @VladyslavTodo - розробник, секції Reviews, Our Products, модальне вікно Buy now
 
+
+
+
+
+
+
+
+
+
+
+
 # Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
