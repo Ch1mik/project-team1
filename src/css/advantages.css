@@ -2,14 +2,14 @@
   background: var(--secondary-color);
   margin-bottom: 72px;
 }
+.advantage{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 @media only screen and (min-width: 768px) {
   .section-advantages {
     margin-bottom: 100px;
     padding: 50px 0px;
-  }
-  .advantage{
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
