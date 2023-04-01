@@ -14,8 +14,8 @@
 }
 
 .icon-burger {
-  background-color: #fafafa;
-  stroke: #111111;
+  background-color: var(--white-color);
+  stroke: var(--main-color);
 }
 .icon-burger:hover,
 .icon-burger:hover {
@@ -53,13 +53,12 @@
   right: 20px;
   top: 20px;
   border: none;
-  background-color: white;
+  background-color: var(--background-color);
   margin-left: auto;
 }
 
 .nav {
   display: flex;
-  /* align-items: center; */
 }
 
 .menu-header {
@@ -69,7 +68,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.02em;
-  color: #111111;
+  color: var(--main-color);
 }
 
 .socials-header {
@@ -93,12 +92,13 @@
 
 .icon-social-svg {
   fill: none;
-  stroke: #111111;
+  stroke: var(--main-color);
 }
 .icon-social-link {
   display: flex;
   align-items: center;
   justify-content: center;
+   
 }
 .icon-social-link:hover .icon-social-svg,
 .icon-social-link:focus .icon-social-svg {
@@ -110,6 +110,7 @@
   padding-top: 28px;
   padding-bottom: 32px;
   position: relative;
+   
 }
 
 /* animation */
@@ -145,6 +146,7 @@
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--orange-color);
+ 
 }
 
 .icon-social-item {
