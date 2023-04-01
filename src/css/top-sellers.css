@@ -61,7 +61,7 @@
 }
 
 .sellers-style {
-    color: #FD9222;
+    color: var(--orange-color);
 }
 
 .sellers-displey {
@@ -94,8 +94,8 @@
 
 .sellers-button:hover,
 .sellers-button:focus{
-    color: #FD9222;
-    background: #FCF1E0;
+    color: var(--orange-color);
+    background: var(--button-hover-color);
 }
 
 @media only screen and (max-width: 768px){
