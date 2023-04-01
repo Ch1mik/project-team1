@@ -6,10 +6,7 @@
   .section-reviews {
     padding-bottom: 100px;
   }
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
+
   .section-reviews .swiper-slide {
     max-width: 344px;
   }
@@ -19,10 +16,7 @@
   .section-product {
     padding-bottom: 128px;
   }
-  .container {
-    padding: 0 32px;
-    max-width: 1200px;
-  }
+
   .section-reviews .swiper-slide {
     max-width: 360px;
   }

@@ -1,18 +1,8 @@
-.backdrop-sbscrb {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  background: transparent;
-  background-color: rgba(66, 60, 46, 0.4);
-  transition: opacity var(--animation), visibility var(--animation);
-}
-.backdrop-sbscrb.sbc-is-hidden {
+.backdrop.sbc-is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: scale(0.5);
 }
 .sbscrb-modal-img {
   width: 311px;
@@ -37,8 +27,8 @@
   border-radius: 50%;
 }
 
-.sbscrb-modal-btn .sbscrb-modal-icon:hover,
-.sbscrb-modal-btn .sbscrb-modal-icon:focus {
+.sbscrb-modal-btn:hover .sbscrb-modal-icon,
+.sbscrb-modal-btn:focus .sbscrb-modal-icon {
   stroke: #fd9222;
 }
 
@@ -53,6 +43,13 @@
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.sbscrb-modal-btn:hover,
+.sbscrb-modal-btn:focus {
+  background-color: #fcf1e0;
 }
 .title-wrap {
   margin-top: 32px;
@@ -103,6 +100,7 @@
   position: absolute;
   margin-left: 165px;
 }
+
 .sbscrb-submit-btn:hover,
 .sbscrb-submit-btn:focus {
   background-color: #fcf1e0;
@@ -113,9 +111,5 @@
   .sbscrb-modal {
     width: 538px;
     padding-left: 0;
-  }
-  .sbscrb-icon-size {
-    width: 28px;
-    height: 28px;
   }
 }

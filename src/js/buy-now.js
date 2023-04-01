@@ -1,12 +1,11 @@
+
 (() => {
   const mobileMenu = document.querySelector('.v-menu-container');
-  const openMenuBtn = document.querySelector('.v-open-menu');
-  const closeMenuBtn = document.querySelector('.v-close-menu');
-const linksMobileMenu = document.querySelectorAll('.v-mobile-link-close');
+  const openMenuBtn = document.querySelectorAll('.v-open-menu');
+  const closeMenuBtn = document.querySelectorAll('.v-close-menu');
   const toggleMenu = () => {
     const isMenuOpen =
-      openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
-    openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
+    
     mobileMenu.classList.toggle('is-hidden');
 
     const scrollLockMethod = !isMenuOpen
@@ -15,12 +14,9 @@ const linksMobileMenu = document.querySelectorAll('.v-mobile-link-close');
     bodyScrollLock[scrollLockMethod](document.body);
   };
 
-  openMenuBtn.addEventListener('click', toggleMenu);
-  closeMenuBtn.addEventListener('click', toggleMenu);
-  linksMobileMenu.forEach(linksMobileMenu => linksMobileMenu.addEventListener('click', toggleMenu));
+  openMenuBtn.forEach(openMenuBtn => openMenuBtn.addEventListener('click', toggleMenu));
+  closeMenuBtn.forEach(closeMenuBtn => closeMenuBtn.addEventListener('click', toggleMenu));
 })();
-
-
 
 // modal
 

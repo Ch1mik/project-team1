@@ -1,9 +1,9 @@
 .section-footer {
   background-color: #1e1823;
   color: #fafafa;
-  text-align: center;
+
   padding: 20px 0;
-  /* max-width: 375px; */
+
   margin: 0 auto;
 }
 .accent {
@@ -26,6 +26,40 @@
   text-align: start;
 }
 
+/* animation */
+
+.footer-link {
+  position: relative;
+}
+
+.footer-link::before,
+.footer-link::after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: var(--orange-color);
+  transition: 0.2s linear;
+}
+
+.footer-link::after {
+  left: 0;
+  bottom: 23px;
+}
+
+.footer-link::before {
+  right: 0;
+  top: 23px;
+}
+
+.footer-link:hover::after,
+.footer-link:hover::before {
+  width: 100%;
+}
+
+/* /animation */
+
 .footer-link:hover,
 .footer-link:focus {
   color: #fd9222;
@@ -33,9 +67,6 @@
 
 .ftr-contact-list {
   margin-bottom: 32px;
-  text-align: start;
-}
-.footer-item {
   text-align: start;
 }
 .ftr-contact-title {
@@ -70,7 +101,6 @@
 }
 .ftr-pages-list {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  width: 335px;
 }
 
 .footer-menu {
@@ -86,9 +116,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .container {
-    max-width: 768px;
-  }
+
   .footer-container {
     margin-bottom: 50px;
     align-items: baseline;
@@ -118,20 +146,13 @@
   }
   .ftr-pages-list {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    width: 704px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ftr-social {
     margin-left: 0;
   }
-  .section-footer {
-    max-width: 1200px;
-  }
-  .container {
-    max-width: 1200px;
-    margin-bottom: 58px;
-  }
+
   .footer-container {
     gap: 63px;
   }
@@ -140,11 +161,27 @@
   }
   .ftr-pages-list {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    width: 1136px;
     margin: 0;
   }
 }
 .icon-close_cros {
   fill: none;
   stroke: #1e1823;
+}
+
+.ftr-social-item {
+  transition: 0.35s linear;
+}
+
+.ftr-social-item:hover {
+  /* transform: translateY(-5px); */
+  transform: rotate(1turn);
+}
+
+.ftr-contact-item {
+  transition: 0.35s linear;
+}
+
+.ftr-contact-item:hover {
+  transform: translateX(5px);
 }
