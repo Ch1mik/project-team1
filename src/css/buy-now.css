@@ -239,3 +239,7 @@
 .swiper-slide-link:hover p {
   background-color: var(--orange-color);
 }
+
+.v-menu-container {
+  overflow: scroll;
+}

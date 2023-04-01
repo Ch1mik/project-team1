@@ -1,8 +1,8 @@
 .subscribe {
   padding-top: 62px;
   padding-bottom: 63px;
-  background-color: #ffffff;
-  color: #ffffff;
+  background-color: var(--white-color);
+  color: var(--white-color);
 
   margin: 0 auto;
 
@@ -40,7 +40,7 @@
 
 .subscr-text {
   line-height: 1.29;
-  color: #ffffff;
+  color: var(--white-color);
   text-align: center;
   letter-spacing: -0.02em;
   font-size: 14px;
@@ -51,8 +51,8 @@
   border-radius: 100px;
   width: 128px;
   height: 41px;
-  background: #fd9222;
-  color: #ffffff;
+  background: var(--orange-color);
+  color: var(--white-color);
   cursor: pointer;
   margin: 0 auto;
   align-items: center;
@@ -63,8 +63,8 @@
 
 .sbscrb-btn:hover,
 .sbscrb-btn:focus {
-  background-color: #fcf1e0;
-  color: #fd9222;
+  background-color: var(--hover-focus-color);
+  color: var(--orange-color);
 }
 
 @media (min-device-pixel-ratio: 2),
