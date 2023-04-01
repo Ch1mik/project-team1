@@ -24,24 +24,16 @@
     background: var(--white-color);
     border-radius: 15px;
   }
-  .modal-close-ico {
-    width: 28px;
-    height: 28px;
-  }
-  .modal-products .modal-close {
-    width: 28px;
-    height: 28px;
-  }
 }
 
 .modal-close-ico {
   stroke: var(--main-color);
+  transition: stroke var(--animation-button);
 }
 
 .modal-close-ico:hover,
 .modal-close-ico:focus {
   stroke: var(--orange-color);
-  transition: stroke var(--animation-button);
 }
 
 .modal-products .modal-close {
@@ -210,7 +202,7 @@
 
 .button-modal:hover,
 .button-modal:focus {
-  background-color: var(--hover-focus-color);
+  background-color: #fcf1e0;
   color: var(--orange-color);
 }
 
@@ -232,7 +224,7 @@
 }
 
 .swiper-slide-link {
-  background: var(--white-color);
+  background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
   margin: 0 auto;
@@ -246,4 +238,8 @@
 
 .swiper-slide-link:hover p {
   background-color: var(--orange-color);
+}
+
+.v-menu-container {
+  overflow: scroll;
 }
