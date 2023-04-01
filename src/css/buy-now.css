@@ -245,5 +245,5 @@
 }
 
 .swiper-slide-link:hover p {
-  background-color: var(--hover-focus-color);
+  background-color: var(--orange-color);
 }

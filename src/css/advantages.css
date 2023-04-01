@@ -1,19 +1,31 @@
 .section-advantages {
   background: var(--secondary-color);
   margin-bottom: 72px;
-  padding: 20px;
 }
 @media only screen and (min-width: 768px) {
   .section-advantages {
     margin-bottom: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0px;
+  }
+  .advantage{
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
+@media only screen and (min-width: 768px) {
+  .advantage {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
+  .advantage{
+    padding: 0;
+  }
   .section-advantages {
     margin-bottom: 128px;
-  }
+}
 }
 .advantage-list {
   display: flex;
