@@ -47,7 +47,7 @@
 
 .section-product .swiper-slide {
   width: 100%;
-  background-color: #fff;
+  background-color: var(--white-color);
   text-align: center;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
@@ -67,7 +67,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 
-  color: #111111;
+  color: var(--main-color);
   margin-bottom: 2px;
 }
 
@@ -86,10 +86,10 @@
   margin: 0 auto;
   font-weight: 600;
   line-height: 1.21;
-  color: #111111;
+  color: var(--main-color);
   width: 94px;
   height: 33px;
-  background: #fafafa;
+  background: var(--white-color);
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 100px;
 }
@@ -106,8 +106,8 @@
 .section-product .swiper-pagination-bullet-active {
   width: 28px;
   border-radius: 20px;
-  background-color: #fd9222;
-  color: #fd9222;
+  background-color: var(--orange-color);
+  color: var(--orange-color);
 }
 
 .section-product .swiper-pagination-bullets.swiper-pagination-horizontal {

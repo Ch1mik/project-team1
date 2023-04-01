@@ -1,5 +1,5 @@
 .reviews-title span {
-  color: #fd9222;
+  color: var(--orange-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -95,18 +95,15 @@
   margin-top: 49px;
   width: 165px;
   height: 41px;
-  font-weight: 600;
   font-size: 14px;
-  line-height: 17px;
 
   background-color: transparent;
-
-  border: 1px solid #fd9222;
+  border: 1px solid var(--orange-color);
   border-radius: 100px;
-
   text-align: center;
-
   color: var(--main-color);
+  transition: background-color var(--animation-button),
+    color var(--animation-button);
 }
 
 @media screen and (min-width: 768px) {
@@ -116,12 +113,12 @@
     height: 50px;
     padding: 14px 40px;
     font-size: 18px;
-    line-height: 1.22px;
   }
 }
 
-.product-button:hover {
-  background-color: #fd9222;
+.product-button:hover,
+.product-button:focus {
+  background-color: var(--orange-color);
   color: var(--white-color);
 }
 
@@ -142,8 +139,8 @@
 .section-reviews .swiper-pagination-bullet-active {
   width: 28px;
   border-radius: 20px;
-  background-color: #fd9222;
-  color: #fd9222;
+  background-color: var(--orange-color);
+  color: var(--orange-color);
 }
 
 .section-reviews .swiper-pagination-bullets.swiper-pagination-horizontal {

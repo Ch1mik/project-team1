@@ -38,8 +38,10 @@
   stroke: var(--main-color);
 }
 
-.modal-close-ico:hover {
+.modal-close-ico:hover,
+.modal-close-ico:focus {
   stroke: var(--orange-color);
+  transition: stroke var(--animation-button);
 }
 
 .modal-products .modal-close {
@@ -151,6 +153,7 @@
   background-color: transparent;
   margin-bottom: 18px;
   outline: none;
+  transition: border var(--animation-button);
 }
 
 .modal-form-input:hover,
@@ -201,12 +204,14 @@
   width: 109px;
   height: 41px;
   padding: 12px 28px;
+  transition: background-color var(--animation-button),
+    color var(--animation-button);
 }
 
 .button-modal:hover,
 .button-modal:focus {
   background-color: var(--hover-focus-color);
-  color:var(--orange-color);
+  color: var(--orange-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -232,8 +237,13 @@
   border-radius: 15px;
   margin: 0 auto;
   padding: 24px 20px 18px 20px;
+  transition: background-color var(--animation-button);
+}
+
+.swiper-slide-link p {
+  transition: background-color var(--animation-button);
 }
 
 .swiper-slide-link:hover p {
-  background-color:var(--hover-focus-color);
+  background-color: var(--hover-focus-color);
 }

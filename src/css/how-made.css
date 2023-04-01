@@ -76,7 +76,7 @@ iframe {
 }
 .container-try {
   padding: 20px 14px;
-  background: #ffffff;
+  background-color: var(--background-color);
   border-radius: 15px;
 }
 @media only screen and (min-width: 768px) {
@@ -125,9 +125,9 @@ iframe {
   content: '';
   width: 8px;
   height: 8px;
-  background-color: #4c4c4c;
+  background-color: var(--background-item-color);
   border-radius: 50%;
-  border: 1px solid #eceded;
+  border: 1px solid var(--border-color);
   top: 0;
   left: -8px;
   transform: translate(-100%, 50%);

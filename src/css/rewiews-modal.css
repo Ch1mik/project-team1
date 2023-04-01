@@ -51,12 +51,12 @@
   top: 0;
   right: 0;
   transform: translateX(-50%) translateY(50%);
-  stroke: black;
+  stroke: var(--main-color);
 }
 
 .modal-btn:hover .modal-icon,
 .modal-btn:focus .modal-icon {
-  stroke: #f16529;
+  stroke: var(--hover-close-color);
 }
 
 /* form modal */
@@ -98,7 +98,7 @@
 
 .modal-rewiews-field:focus,
 .modal-rewiews-field:active{
-  border-color: #f16529;
+  border-color: var(--orange-color);
 }
 
 .modal-rewiews-phone {
@@ -118,8 +118,7 @@
 
 .modal-rewiews-btn:hover,
 .modal-rewiews-btn:focus {
-  color: #fd9222;
-  background: #fcf1e0;
+  color: var(--orange-color);
 }
 @media only screen and (max-width: 768px) {
   .modal-rewiews-btn {

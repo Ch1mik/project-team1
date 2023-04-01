@@ -102,7 +102,7 @@ html {
   font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: -0.03em;
-  color: #ffffff;
+  color: var(--background-color);
   margin-bottom: 32px;
   text-align: left;
   min-height: 72px;
@@ -137,6 +137,7 @@ html {
   width: 120px;
   min-height: 41px;
   margin-right: 14px;
+  transition: var(--animation-button);
 }
 @media only screen and (min-width: 768px) {
   .hero-btn {
@@ -148,15 +149,16 @@ html {
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--orange-color);
-  background-color: #fcf1e0;
+  background-color: var(--background-button-color);
 }
 .made-btn {
   display: flex;
   padding: 12px 28px;
   align-items: center;
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--background-color);
   min-height: 41px;
+  transition: var(--animation-button);
 }
 @media only screen and (min-width: 768px) {
   .made-btn {
@@ -166,7 +168,7 @@ html {
 }
 .made-btn:hover,
 .made-btn:focus {
-  background-color: #ffffff;
+  background-color: var(--background-color);
   border-color: var(--orange-color);
   color: var(--orange-color);
 }
@@ -185,6 +187,7 @@ html {
   padding-left: 7px;
   align-items: center;
   height: 28px;
+  transition: var(--animation-button);
 }
 @media only screen and (min-width: 768px) {
   .scroll-btn {
@@ -197,17 +200,17 @@ html {
 .scroll-btn:hover,
 .scroll-btn:focus {
   color: var(--orange-color);
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 .scroll-btn:hover .scroll-icon,
 .scroll-btn:focus .scroll-icon {
-  fill: #ffffff;
+  fill: var(--background-color);
   background-color: var(--orange-color);
 }
 .scroll-icon {
   width: 28px;
   height: 28px;
   fill: var(--orange-color);
-  background-color: #ffffff;
+  background-color: var(--background-color);
   border-radius: 50%;
 }
