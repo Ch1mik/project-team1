@@ -1,5 +1,5 @@
  .section-advantages {
-    background: #1E1823;
+    background: var(--secondary-color);
     margin-bottom: 72px;
   }
   @media only screen and (min-width: 768px) {
