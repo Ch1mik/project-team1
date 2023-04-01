@@ -14,7 +14,7 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  background-color: #ffffff;
+  background-color: var(--white-color);
   max-width: 311px;
   min-height: 350px;
   width: 100%;
@@ -23,13 +23,13 @@
   padding: 0px 0px 32px 0px;
 }
 .sbscrb-modal-icon {
-  stroke: #ffffff;
+  stroke: var(--white-color);
   border-radius: 50%;
 }
 
 .sbscrb-modal-btn:hover .sbscrb-modal-icon,
 .sbscrb-modal-btn:focus .sbscrb-modal-icon {
-  stroke: #fd9222;
+  stroke: var(--orange-color);
 }
 
 .sbscrb-modal-btn {
@@ -49,7 +49,7 @@
 
 .sbscrb-modal-btn:hover,
 .sbscrb-modal-btn:focus {
-  background-color: #fcf1e0;
+  background-color: var(--hover-focus-color);
 }
 .title-wrap {
   margin-top: 32px;
@@ -61,7 +61,7 @@
   line-height: 1.2;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: #111111;
+  color: var(--main-color);
   text-align: start;
 }
 
@@ -92,7 +92,7 @@
 .sbscrb-submit-btn {
   padding: 14px 28px;
   background-color: #fd9222;
-  color: #ffffff;
+  color: var(--white-color);
   border-radius: 100px;
   width: 100px;
   height: 45px;
@@ -103,13 +103,21 @@
 
 .sbscrb-submit-btn:hover,
 .sbscrb-submit-btn:focus {
-  background-color: #fcf1e0;
-  color: #fd9222;
+  background-color: var(--hover-focus-color);
+  color: var(--orange-color);
 }
 
 @media only screen and (min-width: 768px) {
   .sbscrb-modal {
     width: 538px;
     padding-left: 0;
+  }
+  .sbscrb-modal-btn {
+    width: 28px;
+    height: 28px;
+  }
+  .sbscrb-icon-size {
+    width: 14px;
+    height: 14px;
   }
 }
