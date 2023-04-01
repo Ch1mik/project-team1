@@ -46,11 +46,6 @@
   border-radius: 50%;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: #fcf1e0;
-}
-
 .modal-icon {
   position: absolute;
   top: 0;
@@ -101,8 +96,13 @@
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
 }
 
+.modal-rewiews-field:focus,
+.modal-rewiews-field:active{
+  border-color: #f16529;
+}
+
 .modal-rewiews-phone {
-  padding-left: 149px;
+  padding-left: 70px;
 }
 
 .modal-rewiews-message {
