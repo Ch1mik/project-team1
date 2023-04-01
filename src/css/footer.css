@@ -26,6 +26,40 @@
   text-align: start;
 }
 
+/* animation */
+
+.footer-link {
+  position: relative;
+}
+
+.footer-link::before,
+.footer-link::after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: var(--orange-color);
+  transition: 0.2s linear;
+}
+
+.footer-link::after {
+  left: 0;
+  bottom: 23px;
+}
+
+.footer-link::before {
+  right: 0;
+  top: 23px;
+}
+
+.footer-link:hover::after,
+.footer-link:hover::before {
+  width: 100%;
+}
+
+/* /animation */
+
 .footer-link:hover,
 .footer-link:focus {
   color: #fd9222;
