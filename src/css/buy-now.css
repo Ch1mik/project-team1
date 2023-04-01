@@ -10,9 +10,6 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-attachment: fixed;
   overflow-y: scroll;
 }
@@ -49,6 +46,9 @@
   stroke: #111111;
 }
 
+.modal-close-ico:hover {
+  stroke: #fd9222;
+}
 
 .modal-products .modal-close {
   position: absolute;
@@ -158,6 +158,12 @@
   padding: 14px 18px;
   background-color: transparent;
   margin-bottom: 18px;
+  outline: none;
+}
+
+.modal-form-input:hover,
+.modal-form-input:focus {
+  border: 1.5px solid #fd9222;
 }
 
 @media screen and (min-width: 768px) {
@@ -205,7 +211,8 @@
   padding: 12px 28px;
 }
 
-.button-modal:hover {
+.button-modal:hover,
+.button-modal:focus {
   background-color: #fcf1e0;
   color: #fd9222;
 }
@@ -233,4 +240,8 @@
   border-radius: 15px;
   margin: 0 auto;
   padding: 24px 20px 18px 20px;
+}
+
+.swiper-slide-link:hover p {
+  background-color: #fd9222;
 }
