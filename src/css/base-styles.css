@@ -4,6 +4,7 @@
     --orange-color: #fd9222;
     --white-color: #fafafa;
     --primary-font-family: "Montserrat", sans-serif;
+    --animation-button: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 body {
