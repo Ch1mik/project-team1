@@ -116,9 +116,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .container {
-    max-width: 768px;
-  }
+
   .footer-container {
     margin-bottom: 50px;
     align-items: baseline;
@@ -154,9 +152,7 @@
   .ftr-social {
     margin-left: 0;
   }
-  .container {
-    max-width: 1200px;
-  }
+
   .footer-container {
     gap: 63px;
   }

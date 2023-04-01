@@ -1,18 +1,8 @@
-.backdrop-sbscrb {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  background: transparent;
-  background-color: rgba(66, 60, 46, 0.4);
-  transition: opacity var(--animation), visibility var(--animation);
-}
-.backdrop-sbscrb.sbc-is-hidden {
+.backdrop.sbc-is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: scale(0.5);
 }
 .sbscrb-modal-img {
   width: 311px;

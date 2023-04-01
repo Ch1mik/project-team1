@@ -12,26 +12,7 @@
     padding-bottom: 128px;
   }
 }
-.container {
-  max-width: 375px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 77px;
-    padding-right: 77px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
+
 @media only screen and (min-width: 768px) {
   .container-how-made {
     display: flex;
@@ -79,6 +60,7 @@
 iframe {
   width: 100%;
   border-radius: 15px;
+  border: transparent;
 }
 @media only screen and (min-width: 768px) {
   iframe {
