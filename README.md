@@ -2,17 +2,17 @@
 # Учасники команди Dead bees don't buzzing
 @Ch1mik - Teamlead, секція Advantages
 
-@LeraF825 - Scrum-master, секції Hero and How-made
+@LeraF825 - Scrum-master, секції Hero, How-made
 
-@sashadubovyi - розробник, секція Unique-components
+@sashadubovyi - розробник, секція Unique-components, модальні вікна Thank you, Thank you for your feedback
 
-@kutsarvasya - розробник, секція Header
+@kutsarvasya - розробник, секція Header, мобільне меню навігації
 
-@Orest278 - розробник, секція Top-sellers
+@Orest278 - розробник, секція Top-sellers, модальне вікно Leave a review about our chocolate
 
-@AntoninaGraur - розробник, секції Footer, Subscribe
+@AntoninaGraur - розробник, секції Footer, Subscribe, модальне вікно Explore our new chocolate first
 
-@VladyslavTodo - розробник, секція Reviews
+@VladyslavTodo - розробник, секції Reviews, Our Products, модальне вікно Buy now
 
 # Vanilla App Template
 
