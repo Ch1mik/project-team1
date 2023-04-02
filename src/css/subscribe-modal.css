@@ -89,9 +89,13 @@
   padding-right: 5px;
   padding-left: 5px;
 }
+.input-sbscr-mame:hover,
+.input-sbscr-mame:focus {
+  border-color: var(--orange-color);
+}
 .sbscrb-submit-btn {
   padding: 14px 28px;
-  background-color: #fd9222;
+  background-color: var(--orange-color);
   color: var(--white-color);
   border-radius: 100px;
   width: 100px;
