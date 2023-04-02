@@ -131,7 +131,7 @@ button {
 }
 
 /*  */
-button:hover {
+.anim-b:hover {
   background-position: right center;
   background-size: 200% auto;
   -webkit-animation: pulse 2s infinite;
