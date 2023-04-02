@@ -226,24 +226,3 @@ html {
   background-color: var(--background-color);
   border-radius: 50%;
 }
-
-.made-btn:hover {
-  background-position: right center;
-  background-size: 200% auto;
-  -webkit-animation: pulse 2s infinite;
-  animation: pulse512 1.5s infinite;
-}
-
-@keyframes pulse512 {
-  0% {
-    box-shadow: 0 0 0 0 var(--orange-color);
-  }
-
-  70% {
-    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
-  }
-
-  100% {
-    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
-  }
-}
