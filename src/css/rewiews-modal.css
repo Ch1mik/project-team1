@@ -129,6 +129,9 @@ border: 1.5px solid var(--orange-color);
 .modal-rewiews-message:active {
   border: 1.5px solid var(--orange-color);
 }
+.modal-rewiews-btn{
+  transition: border var(--animation-button);
+}
 
 .modal-rewiews-btn:hover,
 .modal-rewiews-btn:focus {
