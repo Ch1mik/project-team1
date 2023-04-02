@@ -232,11 +232,11 @@
   transition: background-color var(--animation-button);
 }
 
-.swiper-slide-link p {
+.swiper-slide-link a {
   transition: background-color var(--animation-button);
 }
 
-.swiper-slide-link:hover p {
+.swiper-slide-link:hover a {
   background-color: var(--orange-color);
 }
 
