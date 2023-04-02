@@ -48,7 +48,7 @@
 }
 
 .sellers-style {
-    color: var(--orange-color);
+  color: var(--orange-color);
 }
 
 .sellers-displey {
@@ -79,10 +79,14 @@
   }
 }
 
+.sellers-button {
+  transition: color var(--animation-button), background var(--animation-button);
+}
+
 .sellers-button:hover,
-.sellers-button:focus{
-    color: var(--orange-color);
-    background: var(--button-hover-color);
+.sellers-button:focus {
+  color: var(--orange-color);
+  background: var(--button-hover-color);
 }
 
 @media only screen and (max-width: 768px) {

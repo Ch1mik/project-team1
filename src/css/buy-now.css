@@ -241,5 +241,5 @@
 }
 
 .v-menu-container {
-  overflow: scroll;
+  overflow-y: auto;
 }
