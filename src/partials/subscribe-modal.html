@@ -8,18 +8,34 @@
         ></use>
       </svg>
     </button>
-    <img
-      class="sbscrb-modal-img"
-      src="./img/subscribe/sbscrb_pop_up_mob@1x.jpg"
-      alt="dark chocolate"
-      srcset="./img/subscribe/sbscrb_pop_up_mob@2x.jpg"
-    />
+    <picture>
+      <source
+        srcset="
+          ./img/pop-up-subscribe/tab@1x.jpg 1x,
+          ./img/pop-up-subscribe/tab@2x.jpg 2x
+        "
+        media="(min-width:768px)"
+      />
+      <source
+        srcset="
+          ./img/pop-up-subscribe/mob@1x.jpg 1x,
+          ./img/pop-up-subscribe/mob@2x.jpg 2x
+        "
+        media="(min-width:320px)"
+      />
+      <img
+        class="sbscrb-modal-img"
+        src="./img/pop-up-subscribe/mob@1x.jpg"
+        alt="darck choco"
+      />
+    </picture>
+
     <form class="sbscrb-modal-form">
       <div class="sbscrb-modal-wrapper">
         <div class="title-wrap">
           <strong class="sbscrb-modal-title"
             >Explore our
-            <span class="accent">new&nbsp;chocolate</span> first!</strong
+            <span class="accent"> new&nbsp;chocolate</span> first!</strong
           >
         </div>
         <input
