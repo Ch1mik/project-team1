@@ -197,6 +197,12 @@ html {
     height: 38px;
   }
 }
+
+.scroll-btn {
+  transition: color var(--animation-button),
+    background-color var(--animation-button);
+}
+
 .scroll-btn:hover,
 .scroll-btn:focus {
   color: var(--orange-color);
@@ -207,6 +213,12 @@ html {
   fill: var(--background-color);
   background-color: var(--orange-color);
 }
+
+.scroll-icon {
+  transition: background-color var(--animation-button),
+    fill var(--animation-button);
+}
+
 .scroll-icon {
   width: 28px;
   height: 28px;

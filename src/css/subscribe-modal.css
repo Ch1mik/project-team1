@@ -45,6 +45,8 @@
   cursor: pointer;
   width: 24px;
   height: 24px;
+  transition: background-color var(--animation-button),
+    color var(--animation-button);
 }
 
 .sbscrb-modal-btn:hover,
@@ -72,6 +74,7 @@
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 25px;
+  border-color: var(--orange-color);
 }
 .sbscrb-modal-wrapper {
   margin-top: 32px;
@@ -84,10 +87,11 @@
 
   font-size: 9px;
   line-height: 1.17px;
-
+  outline: transparent;
   letter-spacing: 0.01em;
   padding-right: 5px;
   padding-left: 5px;
+  border-color: var(--orange-color);
 }
 .input-sbscr-mame:hover,
 .input-sbscr-mame:focus {
@@ -103,6 +107,8 @@
   border: transparent;
   position: absolute;
   margin-left: 165px;
+  transition: background-color var(--animation-button),
+    color var(--animation-button);
 }
 
 .sbscrb-submit-btn:hover,

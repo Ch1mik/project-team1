@@ -59,6 +59,8 @@
   justify-content: center;
   display: flex;
   border: transparent;
+  transition: background-color var(--animation-button),
+    color var(--animation-button);
 }
 
 .sbscrb-btn:hover,
