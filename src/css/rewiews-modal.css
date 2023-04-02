@@ -26,10 +26,6 @@
   }
 }
 
-/* .backdrop.review-is-hidden .modal {
-  opacity: 1;
-} */
-
 .modal-btn {
   position: absolute;
   top: 0;
@@ -128,6 +124,9 @@ border: 1.5px solid var(--orange-color);
 .modal-rewiews-message:hover,
 .modal-rewiews-message:active {
   border: 1.5px solid var(--orange-color);
+}
+.modal-rewiews-btn{
+  transition: border var(--animation-button);
 }
 
 .modal-rewiews-btn:hover,
