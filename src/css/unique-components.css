@@ -102,21 +102,21 @@
 
 .taste-front.first {
   background-color: var(--orange-color);
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .taste-front.second {
-  background-color: #ffffff;
+  background-color: var(--background-color);
   border: 1px solid var(--orange-color);
 }
 
 .taste-front.third {
   background-color: var(--secondary-color);
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .taste-front.fourth {
-  background-color: #fff;
+  background-color: var(--background-color);
   border: 1px solid var(--orange-color);
 }
 
@@ -159,7 +159,7 @@
 }
 
 .taste-back {
-  background-color: #ffffff;
+  background-color: var(--background-color);
   transform: rotateY(180deg);
 }
 .taste-box:hover .taste-front {
@@ -187,7 +187,7 @@
 .taste-back-contents {
   width: 100%;
   height: 214px;
-  color: #fff;
+  color: var(--background-color);
   transform: translateZ(100px) scale(0.85);
 }
 
@@ -223,7 +223,7 @@
 }
 
 .active {
-  color: #ffffff;
+  color: var(--background-color);
   background: var(--orange-color);
   border: transparent;
 }
