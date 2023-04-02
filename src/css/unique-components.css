@@ -33,12 +33,6 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
-  .taste-title {
-    width: 100%;
-  }
-}
-
 .taste-span {
   color: var(--orange-color);
 }
