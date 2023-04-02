@@ -31,7 +31,6 @@
 }
 
 .sellers-img {
-  border-radius: 15px;
   max-width: 335px;
   width: 100%;
   margin: 0 auto;
@@ -105,4 +104,17 @@
     display: block;
     max-width: 407px;
   }
+}
+
+.sellers-link {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.sellers-link img {
+  transition: transform 3000ms linear;
+}
+
+.sellers-link:hover img {
+  transform: scale(1.3);
 }
